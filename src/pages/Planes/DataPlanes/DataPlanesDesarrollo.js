@@ -8,7 +8,7 @@ const data = {
       item1: "Web adaptable a dispositivos móviles",
       diseno: "Diseño",
       item2: "Call-to-action",
-      item3: "Hosting, email corporativo y dominio",
+      item3: "Hosting, dominio y SSL",
       stack: "Stack de desarrollo: Javascript, React",
       precio: "150"
     },
@@ -20,7 +20,7 @@ const data = {
       item1: "Web adaptable a dispositivos móviles",
       diseno: "Diseño",
       item2: "2 Mantenimientos sin costo",
-      item3: "Hosting y dominio",
+      item3: "Hosting, dominio y SSL",
       stack: "Stack de desarrollo: Javascript, React",
       precio: "200"
     },
@@ -32,7 +32,7 @@ const data = {
       item1: "Web adaptable a dispositivos móviles",
       diseno: "Diseño",
       item2: "2 Mantenimientos sin costo",
-      item3: "Hosting y dominio",
+      item3: "Hosting, dominio y SSL",
       stack: "Stack de desarrollo: Javascript, React, Firebase",
       precio: "300"
     },
