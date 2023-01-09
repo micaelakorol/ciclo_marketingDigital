@@ -4,7 +4,7 @@ import {
   Titulo,
   Descripcion,
   InformacionPrincipal,
-  ContenedorBg,
+  ContenedorBg,ComoLoHago
 } from "../../styled-components/Presentacion";
 import { ReactComponent as ImagenPresentacion } from "../../assets/img.svg";
 
@@ -16,13 +16,13 @@ const Presentacion = () => {
           <Titulo>
             ¡Hola! Soy Nicolas, Especialista en Marketing Digital.
           </Titulo>
-          <Descripcion>
+          <Descripcion as='h3'>
             Mi proposito es ayudarte a impulsar tu marca y hacer crecer tu
             negocio.
           </Descripcion>
-          <Descripcion as="b">
+          <ComoLoHago>
             ¿Cómo lo hago?
-          </Descripcion>
+          </ComoLoHago>
           <Descripcion>
             Diseñando e implementando estrategias según tus objetivos.
             Implementando campañas en medios digitales para llegar a más

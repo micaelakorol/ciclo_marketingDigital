@@ -20,9 +20,9 @@ const NavegacionMovil = () => {
         <Menu onClick={() => setMenuMobile(true)} alt='Icono menu'/>
       </IconosMoviles>
       {menuMobile ? (
-        <Modal>
+        <Modal aria-expanded="true">
           <MenuMobile>
-            <Logo className="logo-mobile" alt='Logo marketing'/>  
+            <Logo className="logo-mobile" alt='logo marketing'/>  
             <Cerrar className="btnCerrar" onClick={() => setMenuMobile(false)} alt='Icono cerrar'/>
             <ContainerLink>
             <Links to="/">Inicio</Links>

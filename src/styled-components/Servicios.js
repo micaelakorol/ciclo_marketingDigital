@@ -3,10 +3,9 @@ import { colores, temas } from "./Colores";
 
 const TituloPrincipal = styled.h2`
   color: ${colores.oscuro};
-  //text-shadow: 1px 1px gray;
   text-align: center;
   text-transform: uppercase;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   margin: 2rem 0;
 `;
 

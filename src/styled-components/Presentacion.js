@@ -20,9 +20,6 @@ const ContenedorPresentacion = styled.main`
 
 const InformacionPrincipal = styled.section`
   margin: 2rem 0 0 1rem;
-  b {
-    font-weight: 600;
-  }
   @media (max-width: 1024px) {
     margin: 1rem 0 0 1rem;
   }
@@ -40,21 +37,25 @@ const Titulo = styled.h1`
   }
 `;
 
-const Descripcion = styled.h3`
+const Descripcion = styled.p`
   color: ${colores.oscuro};
   font-family: "Karla", sans-serif;
-  width: 100%;
   font-size: 1.1rem;
   padding: 0.2rem;
   text-align: start;
   font-weight: normal;
-
   @media (min-width: 768px) {
     margin: 0.5rem 0;
   }
   @media (max-width: 767px) {
     font-size: 1rem;
   }
+`;
+
+const ComoLoHago = styled(Descripcion)`
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.3rem;
 `;
 
 const ContenedorBg = styled.aside`
@@ -75,7 +76,6 @@ const ContenedorBg = styled.aside`
     margin: 0;
     width: 100vw;
 }
-
 `;
 
 export {
@@ -84,4 +84,5 @@ export {
   Descripcion,
   InformacionPrincipal,
   ContenedorBg,
+  ComoLoHago,
 };

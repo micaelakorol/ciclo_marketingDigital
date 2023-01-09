@@ -18,7 +18,6 @@ const PlanesMarketing = () => {
   let descripcionPlanes = data.items;
   return (
     <>
-      <TituloPlan>Ve aquí nuestros planes mensuales</TituloPlan>
       <Subtitulo>Manejo de redes y anuncios</Subtitulo>
       <VistaPlanes>
         {descripcionPlanes.map((item) => (

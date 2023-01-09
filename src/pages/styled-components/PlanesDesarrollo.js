@@ -25,16 +25,13 @@ const MapPlanesDesarrollo = styled(MapPlanes)`
 `;
 
 const DescripcionDesarrollo = styled(DescripcionPlan)`
+  font-weight: 700;
   summary {
     color: ${colores.oscuro};
   }
   summary::marker {
-    color: ${temas.bgBtnDesarrollo};
+    color: ${temas.bgMarronSuave};
   }
 `;
 
-export {
-  PlanesDesarrollo,
-  MapPlanesDesarrollo,
-  DescripcionDesarrollo,
-};
+export { PlanesDesarrollo, MapPlanesDesarrollo, DescripcionDesarrollo };

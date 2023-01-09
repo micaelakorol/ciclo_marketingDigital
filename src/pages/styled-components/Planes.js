@@ -40,7 +40,7 @@ const Subtitulo = styled.h4`
   margin-top: 1rem;
   padding: .5rem;
   font-size: 1.2rem;
-  color: ${colores.oscuroSuave};
+  color: ${colores.oscuro};
   background: ${temas.bgMarronSuave};
 `;
 // Tarjetas:
@@ -77,14 +77,13 @@ const MapPlanes = styled.section`
 `;
 
 const TituloPlan = styled.h3`
-  font-size: 1rem;
   text-transform: uppercase;
   text-align: center;
   color: ${colores.oscuro};
 `;
 
 const DescripcionPlan = styled.ul`
-  font-weight: 700;
+ // font-weight: 700;
   text-align: center;
   margin-top: 0.5rem;
   font-size: .8rem;
