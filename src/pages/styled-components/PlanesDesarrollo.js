@@ -1,10 +1,10 @@
 import styled from "styled-components";
-import { BtnPlanes, DescripcionPlan, MapPlanes, VistaPlanes } from "./Planes";
+import { DescripcionPlan, MapPlanes, VistaPlanes } from "./Planes";
 import { colores, temas } from "../../styled-components/Colores";
 
 const PlanesDesarrollo = styled(VistaPlanes)`
   display: grid;
-  grid-template-columns: repeat(3, 25%);
+  grid-template-columns: repeat(3, 28%);
   justify-content: center;
   gap: 1rem;
   @media (max-width: 1200px) {
@@ -20,14 +20,8 @@ const PlanesDesarrollo = styled(VistaPlanes)`
 `;
 
 const MapPlanesDesarrollo = styled(MapPlanes)`
-  width: 290px;
-`;
-const BtnDesarrollo = styled(BtnPlanes)`
-  background: ${temas.bgBtnDesarrollo};
-  filter: saturate(1.3);
-  a {
-    color: ${colores.oscuro};
-  }
+  width: 295px;
+  max-width: 100vw;
 `;
 
 const DescripcionDesarrollo = styled(DescripcionPlan)`
@@ -42,6 +36,5 @@ const DescripcionDesarrollo = styled(DescripcionPlan)`
 export {
   PlanesDesarrollo,
   MapPlanesDesarrollo,
-  BtnDesarrollo,
   DescripcionDesarrollo,
 };

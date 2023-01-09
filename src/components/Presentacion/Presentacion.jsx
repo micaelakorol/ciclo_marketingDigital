@@ -6,22 +6,35 @@ import {
   InformacionPrincipal,
   ContenedorBg,
 } from "../../styled-components/Presentacion";
-import {ReactComponent as ImagenPresentacion} from '../../assets/img.svg'
+import { ReactComponent as ImagenPresentacion } from "../../assets/img.svg";
 
 const Presentacion = () => {
   return (
     <>
       <ContenedorPresentacion>
         <InformacionPrincipal>
-          <Titulo>¡Hola! Soy Nicolas</Titulo>
+          <Titulo>
+            ¡Hola! Soy Nicolas, Especialista en Marketing Digital.
+          </Titulo>
           <Descripcion>
-           Mi proposito es ayudarte a impulsar tu marca y hacer crecer tu negocio.
-           Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae aliquid quasi quo minus vel quod doloremque amet illum rerum nobis quas eum numquam ex ipsum porro, natus sunt iste necessitatibus!
+            Mi proposito es ayudarte a impulsar tu marca y hacer crecer tu
+            negocio.
+          </Descripcion>
+          <Descripcion as="b">
+            ¿Cómo lo hago?
+          </Descripcion>
+          <Descripcion>
+            Diseñando e implementando estrategias según tus objetivos.
+            Implementando campañas en medios digitales para llegar a más
+            potenciales clientes.
           </Descripcion>
         </InformacionPrincipal>
-
+{/* Contenedor imagen */}
         <ContenedorBg>
-        <ImagenPresentacion className='Imgpersona' alt="presentacion nicolas"/>
+          <ImagenPresentacion
+            className="imgPersona"
+            alt="presentacion nicolas"
+          />
         </ContenedorBg>
       </ContenedorPresentacion>
 

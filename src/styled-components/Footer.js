@@ -20,7 +20,6 @@ const FooterPagina = styled.footer`
   }
   .copy {
     font-size: 0.7rem;
-    font-family: 'Lato', sans-serif;
   }
   @media (max-width: 768px) {
     grid-template-columns: repeat(3, 1fr);

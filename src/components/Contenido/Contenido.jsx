@@ -7,26 +7,32 @@ import {
   ImgMarketing,
   Btn,
 } from "../../styled-components/Contenido";
-import {ReactComponent as ContenidoImg} from "../../assets/contenido.svg"
+import { ReactComponent as ContenidoImg } from "../../assets/contenido.svg";
 
 const Contenido = () => {
   return (
     <>
-    <ContenidoPrincipal>
-    <TituloPrincipal>
-    « Es imposible venderle a quien no conoces »
-      </TituloPrincipal>
-      <Articulo>
-        <PMarketing>
-          Las redes sociales son una necesidad para tu negocio. Además es una poderosa herramienta para identificar a tus potenciales clientes, posicionar tu marca y tus productos. <br /> Comenzá tu proceso de venta escogiendo el plan adecuado.
-          <Btn to={'/planes'}>Elige un plan para tu negocio</Btn>
-        </PMarketing>
+      <ContenidoPrincipal>
+        <TituloPrincipal>
+          « Es imposible venderle a quien no conoces »
+        </TituloPrincipal>
+        <Articulo>
+          <PMarketing>
+           <h4>Las redes sociales son una necesidad para tu negocio. Además es una
+            poderosa herramienta para identificar a tus potenciales clientes,
+            posicionar tu marca y tus productos.</h4> 
+            <b>Comenzá tu proceso de venta escogiendo el plan adecuado. </b>
+           <i>" Lo esencial de tu marca es conocer lo que te diferencia de la
+            competencia. Ahí está tu valor" </i> 
+            <Btn to={"/planes"}>Elige un plan para tu negocio</Btn>
+          </PMarketing>
 
-        <ImgMarketing>
-        <ContenidoImg className="contenido" alt='Ilustracion marketing'/>
-        </ImgMarketing>
-      </Articulo>
-    </ContenidoPrincipal></>
+          <ImgMarketing>
+            <ContenidoImg className="contenido" alt="Ilustracion marketing" />
+          </ImgMarketing>
+        </Articulo>
+      </ContenidoPrincipal>
+    </>
   );
 };
 

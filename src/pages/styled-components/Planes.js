@@ -18,7 +18,7 @@ const VistaPlanes = styled.article`
   overflow-y: hidden;
   margin: 0.8rem auto;
   border-radius: 0.5rem;
-  padding: 1rem;
+  padding: .7rem;
 
   @media (max-width: 1200px) {
     grid-template-columns: repeat(2, 1fr);
@@ -37,7 +37,6 @@ const BodyPlanes = styled.section`
 
 const Subtitulo = styled.h4`
   text-align: center;
-  text-transform: uppercase;
   margin-top: 1rem;
   padding: .5rem;
   font-size: 1.2rem;
@@ -60,7 +59,7 @@ const MapPlanes = styled.section`
   &:hover {
     background: ${temas.bgPlanes};
     .btn {
-      border: 1.7px dashed ${colores.blackSoft};
+      border: 1.7px dashed ${colores.blanco};
     }
   }
   @media (max-width: 480px) {
@@ -88,24 +87,25 @@ const DescripcionPlan = styled.ul`
   font-weight: 700;
   text-align: center;
   margin-top: 0.5rem;
-  font-size: 0.8rem;
+  font-size: .8rem;
   color: ${colores.oscuroSuave};
 `;
-const Precio = styled.section`
+const ContenedorPrecio = styled.section`
   margin: 0.5rem 0;
   text-align: center;
-  b {
-    font-size: 2.5rem;
-    color: ${colores.precio};
-  }
-  p{
-    text-transform: uppercase;
-    font-weight: 700;
-  }
+  b{
+font-size: 2.5rem;
+color: ${colores.precio};  
+}
 `;
+
+const Precio = styled.p`
+font-weight: 700;
+`
+
 const BtnPlanes = styled.button`
-  background: ${temas.bgBtnPlanes};
-  border: 1.7px solid ${colores.oscuroSuave};
+  background: ${colores.oscuro};
+  border: 1.7px solid ${colores.blanco};
   width: 90%;
   padding: 0.4rem;
   border-radius: 0.4rem;
@@ -113,8 +113,8 @@ const BtnPlanes = styled.button`
   filter: saturate(1.1);
   a {
     text-transform: uppercase;
-    font-weight: 600;
-    color: #000;
+    font-weight: 500;
+    color: ${colores.blanco};
     filter: contrast(3);
   }
   .wsp {
@@ -131,6 +131,6 @@ export {
   BtnPlanes,
   Precio,
   Subtitulo,
-  TituloPlan,
+  TituloPlan,ContenedorPrecio,
   DescripcionPlan,
 };

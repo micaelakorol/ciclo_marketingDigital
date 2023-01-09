@@ -1,13 +1,13 @@
 import React from 'react'
 import {TituloPrincipal} from '../../styled-components/Servicios'
 import {ReactComponent as ImgSitio} from '../../assets/blog.svg'
-import { Personal } from '../styled-components/PlanPersonal'
+import { ContenedorBlog } from '../styled-components/Blog'
 const Blog = () => {
   return (
-    <Personal>
+    <ContenedorBlog>
     <TituloPrincipal>SITIO EN CONSTRUCCIÓN..</TituloPrincipal>
     <ImgSitio />
-    </Personal>
+    </ContenedorBlog>
   )
 }
 

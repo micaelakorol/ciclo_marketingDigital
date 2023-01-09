@@ -31,13 +31,16 @@ const Articulo = styled.section`
     }
   }
 `;
-const PMarketing = styled.p`
-  color: ${colores.oscuro};
-  font-family: "Lato", sans-serif;
-  font-size: 1.009rem;
+const PMarketing = styled.section`
+  color: ${colores.oscuroSuave};   
   text-align: start;
   display: flex;
   flex-direction: column;
+  h4,i{
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+  }
+
 `;
 
 const ImgMarketing = styled.section`
@@ -48,7 +51,7 @@ const Btn = styled(Link)`
   background: ${temas.bgAmarrilloBtn};
   text-decoration: none;
   font-weight: 600;
-  font-family: "Playfair Display", serif;
+  font-size: .9rem;
   color: ${colores.oscuroSuave};
   filter: saturate(1.3);
   margin: 1rem;

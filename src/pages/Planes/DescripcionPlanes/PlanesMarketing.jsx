@@ -2,12 +2,13 @@ import React from "react";
 import {
   BtnPlanes,
   BodyPlanes,
-  Precio,
+  ContenedorPrecio,
   VistaPlanes,
   Subtitulo,
   TituloPlan,
   DescripcionPlan,
   MapPlanes,
+  Precio,
 } from "../../styled-components/Planes";
 import { ReactComponent as Whatsapp } from "../../../assets/whatsapp.svg";
 import data from "../DataPlanes/DataPlanes";
@@ -25,9 +26,9 @@ const PlanesMarketing = () => {
             <BodyPlanes>
               <TituloPlan>{item.titulo}</TituloPlan>
             </BodyPlanes>
-            <Precio>
-              <b>{item.precio}</b>
-            </Precio>
+            <ContenedorPrecio>
+              <Precio as='b'>{item.precio}</Precio>
+            </ContenedorPrecio>
             <BodyPlanes>
               <DescripcionPlan>
                 <li><Check/>{item.item1}</li>

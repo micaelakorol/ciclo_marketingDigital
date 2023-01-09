@@ -4,11 +4,12 @@ import {
   BodyPlanes,
   Precio,
   TituloPlan,
+  BtnPlanes,
+  ContenedorPrecio,
 } from "../../styled-components/Planes";
 import { ReactComponent as Whatsapp } from "../../../assets/whatsapp.svg";
 import data from "../DataPlanes/DataPlanesDesarrollo";
 import {
-  BtnDesarrollo,
   DescripcionDesarrollo,
   MapPlanesDesarrollo,
   PlanesDesarrollo,
@@ -27,15 +28,13 @@ const PlanesDesarrolloWeb = () => {
             <BodyPlanes>
               <TituloPlan>{item.titulo}</TituloPlan>
             </BodyPlanes>
-            <DescripcionDesarrollo>
-              <details>
+            <DescripcionDesarrollo as='details'>
                 <summary>¿Qué es?</summary>
                 {item.descripcion}
-              </details>
             </DescripcionDesarrollo>
-            <Precio>
-              <p>Desde</p> <b>${item.precio}</b>
-            </Precio>
+            <ContenedorPrecio>
+              <Precio>Desde</Precio> <Precio as='b'>${item.precio}</Precio>
+            </ContenedorPrecio>
             <BodyPlanes>
               <DescripcionDesarrollo>
                  <li><Check/>{item.item1}</li>
@@ -47,7 +46,7 @@ const PlanesDesarrolloWeb = () => {
             </BodyPlanes>
 
             <BodyPlanes>
-              <BtnDesarrollo className="btn">
+              <BtnPlanes className="btn">
                 <a
                   href="https://walink.co/e9ceb0"
                   target="_blank"
@@ -55,7 +54,7 @@ const PlanesDesarrolloWeb = () => {
                 >
                   <Whatsapp alt="icono whatsapp" className="wsp" />  ¡Lo quiero!{" "}
                 </a>
-              </BtnDesarrollo>
+              </BtnPlanes>
             </BodyPlanes>
           </MapPlanesDesarrollo>
         ))}

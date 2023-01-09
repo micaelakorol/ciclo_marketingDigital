@@ -39,7 +39,7 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer">Cotización de Sitio web </a>
             {/** ------------------------------------------- */}
-          <a href="https://docs.google.com/forms/d/1tSDvsDQeHIf4SiFgW7cPs4SUyyJzeO7NlUGkB4hkZPo/edit" target="_blank" rel="noopener noreferrer">Cotización de Campañas</a>
+          <a href="https://docs.google.com/forms/d/1tSDvsDQeHIf4SiFgW7cPs4SUyyJzeO7NlUGkB4hkZPo/edit" target="_blank" rel="noopener noreferrer">Cotización de Campañas Publicitarias</a>
           <a href="mailto:micaelakorol@gmail.com">Soporte</a>
         </Recursos>
         <Redes>

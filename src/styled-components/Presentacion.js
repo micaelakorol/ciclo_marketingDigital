@@ -20,6 +20,9 @@ const ContenedorPresentacion = styled.main`
 
 const InformacionPrincipal = styled.section`
   margin: 2rem 0 0 1rem;
+  b {
+    font-weight: 600;
+  }
   @media (max-width: 1024px) {
     margin: 1rem 0 0 1rem;
   }
@@ -39,14 +42,15 @@ const Titulo = styled.h1`
 
 const Descripcion = styled.h3`
   color: ${colores.oscuro};
-  font-family: 'Karla', sans-serif;
+  font-family: "Karla", sans-serif;
   width: 100%;
   font-size: 1.1rem;
   padding: 0.2rem;
   text-align: start;
   font-weight: normal;
+
   @media (min-width: 768px) {
-    margin-top: 2rem;
+    margin: 0.5rem 0;
   }
   @media (max-width: 767px) {
     font-size: 1rem;
@@ -67,7 +71,7 @@ const ContenedorBg = styled.aside`
     padding: 0;
   }
 @media(max-width: 1200px){
-  .Imgpersona {
+  .imgPersona {
     margin: 0;
     width: 100vw;
 }

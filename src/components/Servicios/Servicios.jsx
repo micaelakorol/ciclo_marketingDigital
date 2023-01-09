@@ -6,7 +6,7 @@ const Servicios = () => {
   //Que hacemos:
   return (
     <>
-      <TituloPrincipal>Descubre lo que hacemos</TituloPrincipal>
+      <TituloPrincipal>Nuestros servicios</TituloPrincipal>
       <Tarjeta/>
     </>
   );
