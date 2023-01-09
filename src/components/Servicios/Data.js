@@ -2,13 +2,13 @@
 
 const data = {
   items: [
-    {
+  /*  {
       id: 0,
       img: 'https://i.ibb.co/gzShCpN/marketing.png',
       titulo: "Marketing de contenidos",
       descripcion:
         'Así es el mundo hoy: los usuarios "Googlean" absolutamente todo, y asegurarnos de aparecer en esas búsquedas es estar más cerca de nuestros clientes. Con Lemon aseguras estar en primeras posiciones en Google y otros buscadores, que es donde tus clientes realmente buscan.',
-    },
+    },*/
     {
       id: 1,
       img: 'https://i.ibb.co/Z27YyYZ/anuncios.png',

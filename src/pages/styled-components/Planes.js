@@ -50,7 +50,6 @@ const MapPlanes = styled.section`
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin: 0.4rem auto;
-  //  height: 380px;
   max-height: 100vh;
   width: 270px;
   max-width: 90vw;
@@ -98,6 +97,10 @@ const Precio = styled.section`
   b {
     font-size: 2.5rem;
     color: ${colores.precio};
+  }
+  p{
+    text-transform: uppercase;
+    font-weight: 700;
   }
 `;
 const BtnPlanes = styled.button`

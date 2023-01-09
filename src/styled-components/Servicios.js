@@ -12,9 +12,10 @@ const TituloPrincipal = styled.h2`
 
 const ContenedorServicios = styled.section`
   display: grid;
-  grid-template-columns: repeat(4, 25%);
-  @media (max-width: 1024px) {
-    grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 25%);
+  justify-content: center;
+  @media (max-width: 1200px) {
+    grid-template-columns: repeat(2, 50%);
   }
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
