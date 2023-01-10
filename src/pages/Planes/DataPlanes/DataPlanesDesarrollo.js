@@ -19,7 +19,7 @@ const data = {
         "Es un sitio de una sola página. Ideal para dar a conocer tu proyecto o el servicio que brindas.",
       item1: "Web adaptable a dispositivos móviles",
       diseno: "Diseño",
-      item2: "2 Mantenimientos sin costo",
+      item2: "1 Mantenimientos sin costo",
       item3: "Hosting, dominio y SSL",
       stack: "Stack de desarrollo: Javascript, React",
       precio: "200"
