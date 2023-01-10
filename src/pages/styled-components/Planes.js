@@ -35,6 +35,7 @@ const Subtitulo = styled.h4`
 // Tarjetas:
 const TarjetasPlanes = styled.section`
   background: ${colores.blanco};
+  padding: .5rem;
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin: 0.4rem auto;

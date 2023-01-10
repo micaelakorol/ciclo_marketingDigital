@@ -16,7 +16,7 @@ const ContenedorServicios = styled(Contenedor)`
 }
 `;
 const ContenedorTarjetas = styled.ul`
-  padding: 0.8rem;
+  padding: 1rem;
   margin: 1rem;
   height: auto;
   max-width: 100%;

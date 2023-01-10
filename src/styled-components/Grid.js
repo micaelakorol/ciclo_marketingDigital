@@ -5,7 +5,7 @@ const GridContainer = styled.article`
   grid-template-columns: repeat(3, 26%);
   justify-content: center;
   @media (min-width: 1900px) {
-    width: 80vw;
+    width: 75vw;
   }
   @media (max-width: 1024px) {
     grid-template-columns: repeat(2, 40%);
