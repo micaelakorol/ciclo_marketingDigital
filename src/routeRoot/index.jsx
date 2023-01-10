@@ -4,7 +4,8 @@ import Contacto from "../pages/Contacto/Contacto";
 import App from "../App";
 import Render from "../components/Render";
 import Blog from "../pages/Blog/Blog";
-import RenderPlanes from "../pages/Planes/RenderPlanes";
+import DesarrolloWeb from "../pages/PlanesDesarrollo/DesarrolloWeb";
+import PlanesMarketing from "../pages/PlanesMarketing/PlanesMarketing";
 
 export const router = createBrowserRouter([
     {
@@ -20,8 +21,12 @@ export const router = createBrowserRouter([
                         element: <Render />,
                     },
                     {
-                        path: "/planes",
-                        element: <RenderPlanes />,
+                        path: "/desarrollo",
+                        element: <DesarrolloWeb />,
+                    },
+                    {
+                        path: "/redes-anuncios",
+                        element: <PlanesMarketing />,
                     },
                     {
                         path: "/contacto",

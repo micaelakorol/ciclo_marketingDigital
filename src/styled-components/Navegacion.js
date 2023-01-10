@@ -23,6 +23,7 @@ const Elements = styled.nav`
   padding-right: 4rem;
 `;
 
+
 const Links = styled(NavLink)`
   color: ${colores.links};
   font-size: .88rem;
@@ -32,6 +33,9 @@ const Links = styled(NavLink)`
   &:hover{
     color: ${colores.verdeHLinks};
     text-decoration: underline;
+  }
+  @media(max-width: 1024px){
+    font-size: .6rem;
   }
 `;
 
@@ -46,6 +50,7 @@ const ContenedorImg = styled(Link)`
     padding: 0.5rem;
   }
 `;
+
 
 
 export { Elements, ContenedorImg, Links, Header, Formulario };

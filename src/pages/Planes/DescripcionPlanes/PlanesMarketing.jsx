@@ -32,9 +32,6 @@ const PlanesMarketing = () => {
               <DescripcionPlan>
                 <li><Check/>{item.item1}</li>
                 <li><Check/>{item.item2}</li>
-                <li><Check/>{item.item3 && item.item3}</li>
-                <li><Check/>{item.item4 && item.item4}</li>
-                <li><Check/>{item.item5 && item.item5}</li>
               </DescripcionPlan>
               <DescripcionPlan>{item.descripcion}</DescripcionPlan>
             </BodyPlanes>

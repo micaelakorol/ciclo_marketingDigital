@@ -8,14 +8,14 @@ import {
   ContenedorPrecio,
   Contenedor,
   TarjetasPlanes,
-} from "../../styled-components/Planes";
-import { ReactComponent as Whatsapp } from "../../../assets/whatsapp.svg";
-import data from "../DataPlanes/DataPlanesDesarrollo";
+} from "../styled-components/Planes";
+import { ReactComponent as Whatsapp } from "../../assets/whatsapp.svg";
+import data from "./DataPlanesDesarrollo";
 import {
   DescripcionDesarrollo,
-} from "../../styled-components/PlanesDesarrollo";
-import {ReactComponent as Check} from '../../../assets/check2.svg'
-import {ReactComponent as X} from '../../../assets/x-lg.svg'
+} from "../styled-components/PlanesDesarrollo";
+import {ReactComponent as Check} from '../../assets/check2.svg'
+import {ReactComponent as X} from '../../assets/x-lg.svg'
 const PlanesDesarrolloWeb = () => {
   let planesDesarrollo = data.items;
 

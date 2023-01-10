@@ -34,7 +34,7 @@ const data = {
       item2: "2 Mantenimientos sin costo",
       item3: "Hosting, dominio y SSL",
       stack: "Stack de desarrollo: Javascript, React, Firebase",
-      precio: "300"
+      precio: "400"
     },
   ],
 };
