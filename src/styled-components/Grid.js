@@ -2,10 +2,10 @@ import styled from "styled-components";
 
 const GridContainer = styled.article`
   display: grid;
-  grid-template-columns: repeat(3, 25%);
-  place-content: space-around;
+  grid-template-columns: repeat(3, 26%);
+  justify-content: center;
   @media (min-width: 1900px) {
-    width: 60vw;
+    width: 80vw;
   }
   @media (max-width: 1024px) {
     grid-template-columns: repeat(2, 40%);
