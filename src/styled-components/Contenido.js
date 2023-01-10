@@ -32,8 +32,8 @@ const Articulo = styled.section`
   }
 `;
 const PMarketing = styled.section`
-  color: ${colores.oscuroSuave};   
-  text-align: start;
+  color: ${colores.oscuroSuave}; 
+  margin-left: 2.2rem;  
   display: flex;
   flex-direction: column;
   h4,i{

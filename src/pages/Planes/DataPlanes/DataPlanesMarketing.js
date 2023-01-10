@@ -2,16 +2,6 @@ const data = {
   items: [
     {
       id: 1,
-      titulo: "Base",
-      item1: "4 Posteos Mensuales",
-      item2: "6 Historias semanales",
-      item3:"2 Reels Mensuales",
-      item4:"Redacción de Copys/Optimización del perfil",
-      item5:"Calendario",
-      precio: "$2300",
-    },
-    {
-      id: 1,
       titulo: "Emprendedor",
       item1: "4 Posteos Mensuales",
       item2: "6 Historias semanales",

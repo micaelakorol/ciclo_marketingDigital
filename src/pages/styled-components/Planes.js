@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { colores, temas } from "../../styled-components/Colores";
+import { GridContainer } from "../../styled-components/Grid";
 
 const MainPlanes = styled.main`
   background: ${temas.bgPlanes};
@@ -12,47 +13,35 @@ const MainPlanes = styled.main`
   }
 `;
 
-const VistaPlanes = styled.article`
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+const Contenedor = styled(GridContainer)`
   overflow-y: hidden;
   margin: 0.8rem auto;
   border-radius: 0.5rem;
-  padding: .7rem;
-
-  @media (max-width: 1200px) {
-    grid-template-columns: repeat(2, 1fr);
-    width: 75vw;
-  }
-  @media (max-width: 768px) {
-    grid-template-columns: 1fr;
-    width: 100vw;
-    padding: 0;
-  }
+  gap: 1rem;
 `;
 
 const BodyPlanes = styled.section`
-  margin-top: .8rem;
+  margin-top: 0.8rem;
 `;
 
 const Subtitulo = styled.h4`
   text-align: center;
   margin-top: 1rem;
-  padding: .5rem;
+  padding: 0.5rem;
   font-size: 1.2rem;
   color: ${colores.oscuro};
   background: ${temas.bgMarronSuave};
 `;
 // Tarjetas:
-const MapPlanes = styled.section`
+const TarjetasPlanes = styled.section`
   background: ${colores.blanco};
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin: 0.4rem auto;
   max-height: 100vh;
-  width: 270px;
-  max-width: 90vw;
-  padding: 0.7rem;
+  width: 260px;
+  max-width: 100vw;
+  padding: 0.5rem;
   border-radius: 0.6rem;
   overflow: hidden;
   cursor: pointer;
@@ -70,7 +59,7 @@ const MapPlanes = styled.section`
     .btn {
       font-size: 1.1rem;
     }
-    h5 {
+    h4{
       font-size: 1.4rem;
     }
   }
@@ -83,24 +72,23 @@ const TituloPlan = styled.h3`
 `;
 
 const DescripcionPlan = styled.ul`
- // font-weight: 700;
   text-align: center;
   margin-top: 0.5rem;
-  font-size: .8rem;
+  font-size: 0.8rem;
   color: ${colores.oscuroSuave};
 `;
 const ContenedorPrecio = styled.section`
   margin: 0.5rem 0;
   text-align: center;
-  b{
-font-size: 2.5rem;
-color: ${colores.precio};  
-}
+  b {
+    font-size: 2.5rem;
+    color: ${colores.precio};
+  }
 `;
 
 const Precio = styled.p`
-font-weight: 700;
-`
+  font-weight: 700;
+`;
 
 const BtnPlanes = styled.button`
   background: ${colores.oscuro};
@@ -118,18 +106,19 @@ const BtnPlanes = styled.button`
   }
   .wsp {
     position: relative;
-    top: .2rem;
+    top: 0.2rem;
   }
 `;
 
 export {
   MainPlanes,
-  VistaPlanes,
-  MapPlanes,
+  Contenedor,
+  TarjetasPlanes,
   BodyPlanes,
   BtnPlanes,
   Precio,
   Subtitulo,
-  TituloPlan,ContenedorPrecio,
+  TituloPlan,
+  ContenedorPrecio,
   DescripcionPlan,
 };

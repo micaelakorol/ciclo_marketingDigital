@@ -14,7 +14,7 @@ const Presentacion = () => {
       <ContenedorPresentacion>
         <InformacionPrincipal>
           <Titulo>
-            ¡Hola! Soy Nicolas, Especialista en Marketing Digital.
+            ¡Hola! Soy Nicolas, Especialista en Social Media.
           </Titulo>
           <Descripcion as='h3'>
             Mi proposito es ayudarte a impulsar tu marca y hacer crecer tu

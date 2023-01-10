@@ -6,13 +6,13 @@ import {
   TituloPlan,
   BtnPlanes,
   ContenedorPrecio,
+  Contenedor,
+  TarjetasPlanes,
 } from "../../styled-components/Planes";
 import { ReactComponent as Whatsapp } from "../../../assets/whatsapp.svg";
 import data from "../DataPlanes/DataPlanesDesarrollo";
 import {
   DescripcionDesarrollo,
-  MapPlanesDesarrollo,
-  PlanesDesarrollo,
 } from "../../styled-components/PlanesDesarrollo";
 import {ReactComponent as Check} from '../../../assets/check2.svg'
 import {ReactComponent as X} from '../../../assets/x-lg.svg'
@@ -22,9 +22,9 @@ const PlanesDesarrolloWeb = () => {
   return (
     <>
       <Subtitulo>Desarrollo Web</Subtitulo>
-      <PlanesDesarrollo>
+      <Contenedor>
         {planesDesarrollo.map((item) => (
-          <MapPlanesDesarrollo key={item.id}>
+          <TarjetasPlanes key={item.id}>
             <BodyPlanes>
               <TituloPlan>{item.titulo}</TituloPlan>
             </BodyPlanes>
@@ -56,9 +56,9 @@ const PlanesDesarrolloWeb = () => {
                 </a>
               </BtnPlanes>
             </BodyPlanes>
-          </MapPlanesDesarrollo>
+          </TarjetasPlanes>
         ))}
-      </PlanesDesarrollo>
+      </Contenedor>
     </>
   );
 };

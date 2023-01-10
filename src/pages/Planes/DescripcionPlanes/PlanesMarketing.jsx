@@ -3,15 +3,15 @@ import {
   BtnPlanes,
   BodyPlanes,
   ContenedorPrecio,
-  VistaPlanes,
+  Contenedor,
   Subtitulo,
   TituloPlan,
   DescripcionPlan,
-  MapPlanes,
+  TarjetasPlanes,
   Precio,
 } from "../../styled-components/Planes";
 import { ReactComponent as Whatsapp } from "../../../assets/whatsapp.svg";
-import data from "../DataPlanes/DataPlanes";
+import data from "../DataPlanes/DataPlanesMarketing";
 import { ReactComponent as Check } from "../../../assets/check2.svg";
 
 const PlanesMarketing = () => {
@@ -19,9 +19,9 @@ const PlanesMarketing = () => {
   return (
     <>
       <Subtitulo>Manejo de redes y anuncios</Subtitulo>
-      <VistaPlanes>
+      <Contenedor>
         {descripcionPlanes.map((item) => (
-          <MapPlanes key={item.id}>
+          <TarjetasPlanes key={item.id}>
             <BodyPlanes>
               <TituloPlan>{item.titulo}</TituloPlan>
             </BodyPlanes>
@@ -49,9 +49,9 @@ const PlanesMarketing = () => {
                 </a>
               </BtnPlanes>
             </BodyPlanes>
-          </MapPlanes>
+          </TarjetasPlanes>
         ))}
-      </VistaPlanes>
+      </Contenedor>
     </>
   );
 };

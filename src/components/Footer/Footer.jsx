@@ -24,12 +24,19 @@ const Footer = () => {
         <Contacto>
           <b>Contacto</b>
           <a
-            href="mailto:nicolasperezmarketing@gmail.com"target="_blank" rel="noreferrer">
-            Email </a>
-          <a href="tel:+542215645258" rel="noreferrer">Teléfono</a>
-          <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSeV2UXaBdYPZUWYGpAbYXLs7zLXxz6SH4SlHECcoHoDYeDGnQ/viewform" target="_blank" rel="noreferrer">
-            Preguntas </a>
+            href="mailto:nicolasperezmarketing@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Email{" "}
+          </a>
+          <a href="tel:+542215645258" rel="noreferrer">
+            Teléfono
+          </a>
+          <a href="mailto:micaelakorol@gmail.com">Soporte</a>
+
+          {/*  <a href="https://docs.google.com/forms/d/e/1FAIpQLSeV2UXaBdYPZUWYGpAbYXLs7zLXxz6SH4SlHECcoHoDYeDGnQ/viewform" target="_blank" rel="noreferrer">
+            Preguntas </a> */}
         </Contacto>
 
         <Recursos>
@@ -37,10 +44,25 @@ const Footer = () => {
           <a
             href="https://docs.google.com/forms/d/1KjFpJE9wTLUN9JFRyIHcoUPldKJrFjAokUhy2T5uflM/edit"
             target="_blank"
-            rel="noreferrer">Cotización de Sitio web </a>
-            {/** ------------------------------------------- */}
-          <a href="https://docs.google.com/forms/d/1tSDvsDQeHIf4SiFgW7cPs4SUyyJzeO7NlUGkB4hkZPo/edit" target="_blank" rel="noopener noreferrer">Cotización de Campañas</a>
-          <a href="mailto:micaelakorol@gmail.com">Soporte</a>
+            rel="noreferrer"
+          >
+            Cotización de Sitio web{" "}
+          </a>
+          {/** ------------------------------------------- */}
+          <a
+            href="https://docs.google.com/forms/d/1tSDvsDQeHIf4SiFgW7cPs4SUyyJzeO7NlUGkB4hkZPo/edit"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Cotización de Campañas
+          </a>
+          <a
+            href=" https://www.iubenda.com/privacy-policy/92793178/legal"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Politicas de Privacidad
+          </a>
         </Recursos>
         <Redes>
           <Social />

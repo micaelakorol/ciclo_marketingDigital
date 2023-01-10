@@ -1,5 +1,6 @@
 import styled /* , { keyframes } */ from "styled-components";
 import { colores, temas } from "./Colores";
+import { Contenedor } from "../pages/styled-components/Planes";
 
 const TituloPrincipal = styled.h2`
   color: ${colores.oscuro};
@@ -9,17 +10,10 @@ const TituloPrincipal = styled.h2`
   margin: 2rem 0;
 `;
 
-const ContenedorServicios = styled.section`
-  display: grid;
-  grid-template-columns: repeat(3, 25%);
-  justify-content: center;
-  @media (max-width: 1200px) {
-    grid-template-columns: repeat(2, 50%);
-  }
-  @media (max-width: 768px) {
-    grid-template-columns: 1fr;
-    margin: 0;
-  }
+const ContenedorServicios = styled(Contenedor)`
+@media(max-width:768px){
+  grid-template-columns: 70%;
+}
 `;
 const ContenedorTarjetas = styled.ul`
   padding: 0.8rem;
