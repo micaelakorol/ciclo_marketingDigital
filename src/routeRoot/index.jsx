@@ -4,8 +4,8 @@ import Contacto from "../pages/Contacto/Contacto";
 import App from "../App";
 import Render from "../components/Render";
 import Blog from "../pages/Blog/Blog";
-import DesarrolloWeb from "../pages/PlanesDesarrollo/DesarrolloWeb";
-import PlanesMarketing from "../pages/PlanesMarketing/PlanesMarketing";
+import DesarrolloWeb from "../pages/DesarrolloWeb/DesarrolloWeb";
+import GestionRedes from "../pages/GestionRedes/GestionRedes";
 
 export const router = createBrowserRouter([
     {
@@ -26,7 +26,7 @@ export const router = createBrowserRouter([
                     },
                     {
                         path: "/redes-anuncios",
-                        element: <PlanesMarketing />,
+                        element: <GestionRedes />,
                     },
                     {
                         path: "/contacto",

@@ -26,6 +26,7 @@ const NavegacionMovil = () => {
             <Cerrar className="btnCerrar" onClick={() => setMenuMobile(false)} alt='Icono cerrar'/>
             <ContainerLink>
             <Links to="/">Inicio</Links>
+            <Links to="/redes-anuncios">Gestión Redes</Links>
               <Links to="/desarrollo">Desarrollo Web</Links>
               <Links to="/blog">Blog</Links>
               <Formulario

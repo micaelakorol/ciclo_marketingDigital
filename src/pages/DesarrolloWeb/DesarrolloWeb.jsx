@@ -8,6 +8,7 @@ import {
   ContenedorPrecio,
   Contenedor,
   TarjetasPlanes,
+  Ancla,
 } from "../styled-components/Planes";
 import { ReactComponent as Whatsapp } from "../../assets/whatsapp.svg";
 import data from "./DataPlanesDesarrollo";
@@ -16,6 +17,7 @@ import {
 } from "../styled-components/PlanesDesarrollo";
 import {ReactComponent as Check} from '../../assets/check2.svg'
 import {ReactComponent as X} from '../../assets/x-lg.svg'
+import { ItemArticulo } from "../styled-components/GestionRedes";
 const PlanesDesarrolloWeb = () => {
   let planesDesarrollo = data.items;
 
@@ -37,23 +39,22 @@ const PlanesDesarrolloWeb = () => {
             </ContenedorPrecio>
             <BodyPlanes>
               <DescripcionDesarrollo>
-                 <li><Check/>{item.item1}</li>
-                 <li><X/> {item.diseno}</li>
-                <li><Check/> {item.item2}</li>
-                <li><Check/>{item.item3}</li>
-                <li><Check/>{item.stack}</li>
+                 <ItemArticulo><Check/>{item.item1}</ItemArticulo>
+                 <ItemArticulo><X/> {item.diseno}</ItemArticulo>
+                <ItemArticulo><Check/> {item.item2}</ItemArticulo>
+                <ItemArticulo><Check/>{item.item3}</ItemArticulo>
+                <ItemArticulo><Check/>{item.stack}</ItemArticulo>
               </DescripcionDesarrollo>
             </BodyPlanes>
 
             <BodyPlanes>
               <BtnPlanes className="btn">
-                <a
+                <Ancla
                   href="https://walink.co/e9ceb0"
                   target="_blank"
-                  rel="noopener noreferrer"
-                >
+                  rel="noopener noreferrer">
                   <Whatsapp alt="icono whatsapp" className="wsp" />  ¡Lo quiero!{" "}
-                </a>
+                </Ancla>
               </BtnPlanes>
             </BodyPlanes>
           </TarjetasPlanes>

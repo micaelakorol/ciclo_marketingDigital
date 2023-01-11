@@ -19,4 +19,6 @@ const GridContainer = styled.article`
     padding: 0;
   }
 `
+
+
 export {GridContainer}
