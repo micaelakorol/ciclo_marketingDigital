@@ -11,6 +11,12 @@ const ContenedorRedes = styled(GridContainer)`
   .gestion-redes {
     width: 40%;
   }
+  @media(max-width: 768px){
+    width: 50vw;
+  }
+  @media(max-width: 480px){
+    width: 100vw;
+  }
 `;
 
 const DescripcionRedes = styled(DescripcionTarjeta)`
@@ -37,7 +43,7 @@ const ArticuloRedes = styled(Articulo)`
       width: 80%;
     }
     .ilustracion-mkt{
-      width: 70%;
+      display: none;
     }
   }
 `;
