@@ -4,6 +4,7 @@ import { ReactComponent as Check } from "../../assets/check2.svg";
 import {
   ArticuloDesarrollo,
   ContenidoDesarrollo,
+  ParrafoDW,
 } from "../styled-components/DesarrolloWeb";
 import { ImgMarketing } from "../../styled-components/Contenido";
 import {
@@ -22,9 +23,10 @@ const PlanesDesarrolloWeb = () => {
     <>
       <Subtitulo>¿Por qué es tan importante contar con un sitio web?</Subtitulo>
       <ArticuloDesarrollo>
-        <ContenidoDesarrollo>
-          Hoy en día, tener presencia en internet es fundamental para cualquier
-          negocio,emprendimiento o empresa. Pero, ¿Por qué es tan importante?
+        <ContenidoDesarrollo as='section'>
+          <ParrafoDW>Hoy en día, tener presencia en internet es fundamental para cualquier
+          emprendimiento o empresa. Pero, ¿Cuáles son los beneficios?</ParrafoDW>
+          
           <DescripcionRedes as="ul">
             {beneficiosDesarrollo.map((item) => (
               <ItemArticulo>
@@ -38,7 +40,6 @@ const PlanesDesarrolloWeb = () => {
           <Web alt="ilustracion sitio web" className="ilustracion-mkt" />
         </ImgMarketing>
       </ArticuloDesarrollo>
-
       <TiposDeSitios />
       <PlanDesarrollo />
     </>

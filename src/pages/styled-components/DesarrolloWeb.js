@@ -1,16 +1,36 @@
 import styled from "styled-components";
 import { DescripcionTarjeta } from "../../styled-components/Servicios";
-import { colores } from "../../styled-components/Colores";
+import { colores, temas } from "../../styled-components/Colores";
 import { ArticuloRedes, ContenedorPlanRedes } from "./GestionRedes";
 import { BtnPlanes } from "./Planes";
+
+const ContenedorDesarrollo = styled.article`
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  margin: 1rem;
+  place-content: center;
+  .desarrollo-web{
+    width: 45%;
+  }
+  summary::marker{
+  color: ${temas.bgMarronSuave};
+}
+  @media(max-width: 768px){
+    grid-template-columns: repeat(2, 45%);
+  }
+  @media(max-width: 480px){
+    grid-template-columns: 80%;
+  }
+`
 
 const ContenidoDesarrollo = styled(DescripcionTarjeta)`
   text-align: center;
   font-size: 1.1rem;
-  margin-top: 2rem;
+  padding: 1.5rem;
 `;
 
-const ArticuloDesarrollo = styled(ArticuloRedes)``;
+const ArticuloDesarrollo = styled(ArticuloRedes)`
+`;
 
 const TituloTarjeta = styled.h5`
   color: ${colores.pServicios};
@@ -20,6 +40,9 @@ const TituloTarjeta = styled.h5`
 const BtnDesarrollo = styled(BtnPlanes)`
   width: 60%;
   margin-top: 1rem;
+  &:hover{
+    opacity: .9;
+  }
   @media (max-width: 480px) {
     width: 100%;
     a {
@@ -29,16 +52,24 @@ const BtnDesarrollo = styled(BtnPlanes)`
 `;
 
 const ContenedorPlanDesarrollo = styled(ContenedorPlanRedes)`
+padding: 2rem;
   @media (max-width: 768px) {
     width: 80vw;
     padding: .6rem;
   }
 `;
 
+const ParrafoDW = styled.p`
+  text-align: center;
+  color: ${colores.pServicios};
+  margin-bottom: .8rem;
+  font-size: 1rem;
+`
+
 export {
   ContenidoDesarrollo,
-  ArticuloDesarrollo,
+  ArticuloDesarrollo,ParrafoDW,
   TituloTarjeta,
   BtnDesarrollo,
-  ContenedorPlanDesarrollo,
+  ContenedorPlanDesarrollo,ContenedorDesarrollo
 };

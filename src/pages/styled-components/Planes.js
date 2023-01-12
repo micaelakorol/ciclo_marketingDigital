@@ -1,20 +1,6 @@
 import styled from "styled-components";
 import { colores, temas } from "../../styled-components/Colores";
 
-const MainPlanes = styled.main`
-  background: ${temas.bgPlanes};
-  filter: saturate(1.3);
-  height: 100vh;
-  width: 100vw;
-  h3 {
-    font-size: 1.4rem;
-    margin-top: 1rem;
-  }
-`;
-
-const BodyPlanes = styled.section`
-  margin-top: 0.8rem;
-`;
 
 const Subtitulo = styled.h3`
   text-align: center;
@@ -24,39 +10,6 @@ const Subtitulo = styled.h3`
   color: ${colores.oscuro};
   background: ${temas.bgMarronSuave};
   filter: saturate(1.3);
-`;
-// Tarjetas:
-const TarjetasPlanes = styled.section`
-  background: ${colores.blanco};
-  padding: .5rem;
-  text-align: center;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  margin: 0.4rem auto;
-  max-height: 100vh;
-  width: 260px;
-  max-width: 100vw;
-  padding: 0.5rem;
-  border-radius: 0.6rem;
-  overflow: hidden;
-  cursor: pointer;
-  &:hover {
-    background: ${temas.bgPlanes};
-    .btn {
-      border: 1.7px dashed ${colores.blanco};
-    }
-  }
-  @media (max-width: 480px) {
-    height: auto;
-    padding: 0.6rem;
-    p,
-    b,
-    .btn {
-      font-size: 1.1rem;
-    }
-    h4{
-      font-size: 1.4rem;
-    }
-  }
 `;
 
 const TituloPlan = styled.h3`
@@ -70,18 +23,6 @@ const DescripcionPlan = styled.ul`
   margin-top: 0.5rem;
   font-size: 0.8rem;
   color: ${colores.oscuroSuave};
-`;
-const ContenedorPrecio = styled.section`
-  margin: 0.5rem 0;
-  text-align: center;
-  b {
-    font-size: 2.5rem;
-    color: ${colores.precio};
-  }
-`;
-
-const Precio = styled.p`
-  font-weight: 700;
 `;
 
 const BtnPlanes = styled.button`
@@ -106,13 +47,8 @@ const Ancla = styled.a`
 `
 
 export {
-  MainPlanes,
-  TarjetasPlanes,
-  BodyPlanes,
   BtnPlanes,
-  Precio,
   Subtitulo,
   TituloPlan,
-  ContenedorPrecio,
   DescripcionPlan,Ancla
 };

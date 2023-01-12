@@ -24,7 +24,7 @@ const Contenido = () => {
             <b>Comenzá tu proceso de venta escogiendo el plan adecuado. </b>
            <i>" Lo esencial de tu marca es conocer lo que te diferencia de la
             competencia. Ahí está tu valor" </i> 
-            <Btn to={"/planes"}>Elige un plan para tu negocio</Btn>
+            <Btn to={"/redes-anuncios"}>Elige un plan para tu negocio</Btn>
           </PMarketing>
 
           <ImgMarketing>

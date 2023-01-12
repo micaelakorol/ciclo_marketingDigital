@@ -19,7 +19,7 @@ const GestionRedes = () => {
         {gestionRedes.map((item) => (
           <ContenedorTarjetas key={item.id}>
             <img src={item.img} alt="Iconos" className="gestion-redes" />
-            <DescripcionRedes as='li'>{item.descripcion}</DescripcionRedes>
+            <DescripcionRedes>{item.descripcion}</DescripcionRedes>
           </ContenedorTarjetas>
         ))}
       </ContenedorRedes>

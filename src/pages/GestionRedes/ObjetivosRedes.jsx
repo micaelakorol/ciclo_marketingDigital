@@ -23,7 +23,7 @@ const ObjetivosRedes = () => {
             </ItemArticulo>
           ))}
         <BtnPlanes className="btn btnObjetivos"> 
-        <Ancla>Me interesa</Ancla>
+        <Ancla href="https://forms.gle/UfBkXRvRb2Rj8mp4A" target='_blank' rel="noreferrer">Me interesa</Ancla>
          </BtnPlanes>
         </DescripcionRedes>
         <ImgMarketing>

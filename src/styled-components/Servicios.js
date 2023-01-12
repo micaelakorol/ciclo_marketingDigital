@@ -15,7 +15,7 @@ const ContenedorServicios = styled(Contenedor)`
   grid-template-columns: 70%;
 }
 `;
-const ContenedorTarjetas = styled.ul`
+const ContenedorTarjetas = styled.section`
   padding: 1rem;
   margin: 1rem;
   height: auto;

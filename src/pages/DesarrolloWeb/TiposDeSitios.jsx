@@ -1,12 +1,10 @@
 import React from "react";
+import { ContenedorTarjetas } from "../../styled-components/Servicios";
+import { DescripcionRedes } from "../styled-components/GestionRedes";
 import {
-  ContenedorTarjetas,
-} from "../../styled-components/Servicios";
-import {
-  ContenedorRedes,
-  DescripcionRedes,
-} from "../styled-components/GestionRedes";
-import {TituloTarjeta} from '../styled-components/DesarrolloWeb'
+  TituloTarjeta,
+  ContenedorDesarrollo,
+} from "../styled-components/DesarrolloWeb";
 import tiposSitios from "./Data/TiposSitios";
 import { Subtitulo } from "../styled-components/Planes";
 
@@ -19,15 +17,18 @@ const TiposDeSitios = () => {
         Hay varios tipos de sitios web, escoger uno dependerá unicamente de tu
         objetivo{" "}
       </Subtitulo>
-      <ContenedorRedes>
+      <ContenedorDesarrollo>
         {descripcionSitios.map((item) => (
           <ContenedorTarjetas key={item.id}>
-            <img src={item.img} alt="Iconos" className="gestion-redes" />
+            <img src={item.img} alt="Iconos" className="desarrollo-web" />
             <TituloTarjeta>{item.titulo}</TituloTarjeta>
-            <DescripcionRedes as="li">{item.descripcion}</DescripcionRedes>
+            <DescripcionRedes as="details">
+              <summary>¿Qué es?</summary>
+              {item.descripcion}
+            </DescripcionRedes>
           </ContenedorTarjetas>
         ))}
-      </ContenedorRedes>
+      </ContenedorDesarrollo>
     </>
   );
 };

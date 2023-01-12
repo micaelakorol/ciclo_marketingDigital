@@ -22,7 +22,7 @@ const PlanRedesSociales = () => {
             </ItemArticulo>
           ))}
           <BtnPlanes className="btn btnObjetivos">
-            <Ancla>¡Comencemos!</Ancla>
+            <Ancla href="https://forms.gle/UfBkXRvRb2Rj8mp4A" target='_blank' rel="noreferrer">¡Comencemos!</Ancla>
           </BtnPlanes>
         </DescripcionRedes>
       </ContenedorPlanRedes>

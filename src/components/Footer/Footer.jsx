@@ -33,16 +33,13 @@ const Footer = () => {
           <a href="tel:+542215645258" rel="noreferrer">
             Teléfono
           </a>
-          <a href="mailto:micaelakorol@gmail.com">Soporte</a>
-
-          {/*  <a href="https://docs.google.com/forms/d/e/1FAIpQLSeV2UXaBdYPZUWYGpAbYXLs7zLXxz6SH4SlHECcoHoDYeDGnQ/viewform" target="_blank" rel="noreferrer">
-            Preguntas </a> */}
+          <a href="mailto:micaelakorol@gmail.com">Soporte Programador</a>
         </Contacto>
 
         <Recursos>
           <b>Recursos</b>
           <a
-            href="https://docs.google.com/forms/d/1bWDvzALAe_3XjBsBTidm2XIBwJIjKqfdWq4ZOgr4qyk/edit"
+            href="https://forms.gle/WUSFDgH5poEJgkZV8"
             target="_blank"
             rel="noreferrer"
           >
@@ -50,7 +47,7 @@ const Footer = () => {
           </a>
           {/** ------------------------------------------- */}
           <a
-            href="https://docs.google.com/forms/d/1tSDvsDQeHIf4SiFgW7cPs4SUyyJzeO7NlUGkB4hkZPo/edit"
+            href="https://forms.gle/UfBkXRvRb2Rj8mp4A"
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -5,7 +5,7 @@ import { ContenedorBlog } from '../styled-components/Blog'
 const Blog = () => {
   return (
     <ContenedorBlog>
-    <TituloPrincipal>SITIO EN CONSTRUCCIÓN..</TituloPrincipal>
+    <TituloPrincipal>Aún faltan algunos ladrillos..</TituloPrincipal>
     <ImgSitio />
     </ContenedorBlog>
   )

@@ -18,7 +18,7 @@ const PlanDesarrollo = () => {
             </ItemArticulo>
           ))}
           <BtnDesarrollo className="btn btnDesarrollo">
-            <Ancla>Solicitar cotización</Ancla>
+            <Ancla href='https://forms.gle/76FDBUW7RbBaxv9N7' target='_blank' rel="noreferrer">Solicitar cotización</Ancla>
           </BtnDesarrollo>
         </DescripcionRedes>
       </ContenedorPlanDesarrollo>
