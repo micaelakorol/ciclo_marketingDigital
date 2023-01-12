@@ -17,13 +17,15 @@ const NavegacionMovil = () => {
   return (
     <ContenedorHeaderMob>
       <IconosMoviles>
-        <Menu onClick={() => setMenuMobile(true)} alt='Icono menu'/>
+        <Menu onClick={() => setMenuMobile(true)} aria-expanded="true" alt='Icono menu'/>
       </IconosMoviles>
       {menuMobile ? (
-        <Modal aria-expanded="true">
+        <Modal>
           <MenuMobile>
             <Logo className="logo-mobile" alt='logo marketing'/>  
-            <Cerrar className="btnCerrar" onClick={() => setMenuMobile(false)} alt='Icono cerrar'/>
+            <Cerrar className="btnCerrar" onClick={() => setMenuMobile(false)} alt='Icono cerrar'
+            aria-expanded="false"
+            />
             <ContainerLink>
             <Links to="/">Inicio</Links>
             <Links to="/redes-anuncios">Gestión Redes</Links>
