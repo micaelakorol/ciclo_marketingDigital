@@ -19,6 +19,12 @@ const GridContainer = styled.article`
     padding: 0;
   }
 `
+const Contenedor = styled(GridContainer)`
+  overflow-y: hidden;
+  margin: 0.8rem auto;
+  border-radius: 0.5rem;
+  gap: 1rem;
+`;
 
 
-export {GridContainer}
+export {GridContainer,Contenedor}

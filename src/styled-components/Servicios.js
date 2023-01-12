@@ -1,6 +1,6 @@
 import styled /* , { keyframes } */ from "styled-components";
 import { colores, temas } from "./Colores";
-import { Contenedor } from "../pages/styled-components/Planes";
+import { Contenedor } from "./Grid";
 
 const TituloPrincipal = styled.h2`
   color: ${colores.oscuro};

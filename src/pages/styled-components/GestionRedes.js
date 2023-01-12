@@ -22,13 +22,6 @@ const ContenedorRedes = styled(GridContainer)`
 const DescripcionRedes = styled(DescripcionTarjeta)`
   text-align: center;
   font-weight: 600;
-`;
-
-const ArticuloRedes = styled(Articulo)`
-  .ilustracion-mkt {
-    margin: 2rem;
-    width: 40%;
-  }
   .btnObjetivos {
     width: 30%;
     margin-top: 1.4rem;
@@ -42,6 +35,15 @@ const ArticuloRedes = styled(Articulo)`
     .btnObjetivos{
       width: 80%;
     }
+  }
+`;
+
+const ArticuloRedes = styled(Articulo)`
+  .ilustracion-mkt{
+    margin: 2rem;
+    width: 40%;
+  }
+  @media(max-width: 768px){
     .ilustracion-mkt{
       display: none;
     }

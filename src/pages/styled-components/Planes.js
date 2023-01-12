@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { colores, temas } from "../../styled-components/Colores";
-import { GridContainer } from "../../styled-components/Grid";
 
 const MainPlanes = styled.main`
   background: ${temas.bgPlanes};
@@ -11,13 +10,6 @@ const MainPlanes = styled.main`
     font-size: 1.4rem;
     margin-top: 1rem;
   }
-`;
-
-const Contenedor = styled(GridContainer)`
-  overflow-y: hidden;
-  margin: 0.8rem auto;
-  border-radius: 0.5rem;
-  gap: 1rem;
 `;
 
 const BodyPlanes = styled.section`
@@ -115,7 +107,6 @@ const Ancla = styled.a`
 
 export {
   MainPlanes,
-  Contenedor,
   TarjetasPlanes,
   BodyPlanes,
   BtnPlanes,

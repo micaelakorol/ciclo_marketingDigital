@@ -15,7 +15,7 @@ const Articulo = styled.section`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding: 0.5rem;
-  margin: 0.5rem;
+  margin: 2rem;
 
   @media (max-width: 768px) {
     grid-template-columns: 1fr;

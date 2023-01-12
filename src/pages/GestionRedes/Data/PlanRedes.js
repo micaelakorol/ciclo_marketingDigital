@@ -4,6 +4,7 @@ const planRedes = {
     { id: 1, descripcion: "Optimización de redes" },
     { id: 2, descripcion: "Interacción con los usuarios" },
     { id: 3, descripcion: "Análisis de competencia y seguimiento" },
+    { id: 4, descripcion: "Calendario" },
   ],
 };
 export default planRedes

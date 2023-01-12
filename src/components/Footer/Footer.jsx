@@ -42,7 +42,7 @@ const Footer = () => {
         <Recursos>
           <b>Recursos</b>
           <a
-            href="https://docs.google.com/forms/d/1KjFpJE9wTLUN9JFRyIHcoUPldKJrFjAokUhy2T5uflM/edit"
+            href="https://docs.google.com/forms/d/1bWDvzALAe_3XjBsBTidm2XIBwJIjKqfdWq4ZOgr4qyk/edit"
             target="_blank"
             rel="noreferrer"
           >
