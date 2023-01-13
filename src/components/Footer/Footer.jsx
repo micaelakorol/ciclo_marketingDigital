@@ -17,7 +17,7 @@ const Footer = () => {
           <img
             src={logo}
             alt="Logo de marketing"
-            className="logo ciclo marketing"
+            className="logomkt"
           />
         </LogoFooter>
 
@@ -30,7 +30,7 @@ const Footer = () => {
           >
             Email{" "}
           </a>
-          <a href="tel:+542215645258" rel="noreferrer">
+          <a href="tel:+541124000822" rel="noreferrer">
             Teléfono
           </a>
           <a href="mailto:micaelakorol@gmail.com">Soporte Programador</a>

@@ -8,6 +8,7 @@ const ContenidoPrincipal = styled.article`
   max-height: 100vh;
   margin-top: 2rem;
   box-sizing: border-box;
+  overflow: hidden;
   filter: saturate(1.3);
 `;
 

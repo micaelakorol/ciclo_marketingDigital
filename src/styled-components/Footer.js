@@ -21,8 +21,14 @@ const FooterPagina = styled.footer`
   .copy {
     font-size: 0.7rem;
   }
+  .logomkt {
+    margin-top: 1rem;
+  }
   @media (max-width: 768px) {
     grid-template-columns: repeat(3, 1fr);
+    .logomkt {
+      margin: 0;
+    }
     b,
     a {
       margin: 0.2rem;
