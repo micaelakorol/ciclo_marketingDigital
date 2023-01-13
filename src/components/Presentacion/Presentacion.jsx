@@ -13,7 +13,7 @@ const Presentacion = () => {
       <ContenedorPresentacion>
         <InformacionPrincipal>
           <Titulo>
-            ¡Hola! Soy Nicolas, Especialista en Social Media.
+            ¡Hola! Soy Nicolas, creador de Ciclo Marketing Digital, Especialista en Social Media.
           </Titulo>
           <Descripcion as='h3'>
             Mi propósito es ayudarte a impulsar tu marca y hacer crecer tu
