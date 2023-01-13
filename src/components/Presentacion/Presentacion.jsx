@@ -16,7 +16,7 @@ const Presentacion = () => {
             ¡Hola! Soy Nicolas, Especialista en Social Media.
           </Titulo>
           <Descripcion as='h3'>
-            Mi proposito es ayudarte a impulsar tu marca y hacer crecer tu
+            Mi propósito es ayudarte a impulsar tu marca y hacer crecer tu
             negocio.
           </Descripcion>
           <ComoLoHago>

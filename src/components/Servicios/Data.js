@@ -12,9 +12,11 @@ const data = {
     {
       id: 1,
       img: 'https://i.ibb.co/Z27YyYZ/anuncios.png',
-      titulo: "Campañas Publicitarias",
+      titulo: "Públicidad Digital",
       descripcion:
-        "Utilizamos estrategias SEM (Anuncios en Google) y en otras redes sociales para adquirir nuevos clientes o generar ventas. Llegamos a la audiencia adecuada, utilizando el canal correcto y el mensaje clave que multiplicará tus resultados digitales. ",
+      "¿Dónde se encuentra nuestro público? ",
+      descripcion2:"La mayoría está en las redes sociales. Esto significa que no podemos dejar Facebook Ads fuera de nuestras estrategias de inversion publicitaría. Comenzá a potenciar tu visibilidad y ventas de la marca."
+    
     },
     {
       id: 2,
