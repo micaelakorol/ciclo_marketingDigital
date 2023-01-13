@@ -15,7 +15,7 @@ const ObjetivosRedes = () => {
     <>
       <Subtitulo>Te voy a ayudar a impulsar y gestionar tus redes</Subtitulo>
       <TituloPrincipal as='h4'>¿Cómo lo vamos a conseguir?</TituloPrincipal>
-      <ArticuloRedes>
+      <ArticuloRedes as='article'>
         <DescripcionRedes as="ul">
           {queHare.map((item) => (
             <ItemArticulo key={item.id}>

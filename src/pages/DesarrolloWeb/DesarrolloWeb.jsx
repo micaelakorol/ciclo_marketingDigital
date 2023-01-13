@@ -22,7 +22,7 @@ const PlanesDesarrolloWeb = () => {
   return (
     <>
       <Subtitulo>¿Por qué es tan importante contar con un sitio web?</Subtitulo>
-      <ArticuloDesarrollo>
+      <ArticuloDesarrollo as='article'>
         <ContenidoDesarrollo as='section'>
           <ParrafoDW>Hoy en día, tener presencia en internet es fundamental para cualquier
           emprendimiento o empresa. Pero, ¿Cuáles son los beneficios?</ParrafoDW>

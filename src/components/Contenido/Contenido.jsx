@@ -22,8 +22,6 @@ const Contenido = () => {
             poderosa herramienta para identificar a tus potenciales clientes,
             posicionar tu marca y tus productos.</h4> 
             <b>Comenzá tu proceso de venta escogiendo el plan adecuado. </b>
-           <i>" Lo esencial de tu marca es conocer lo que te diferencia de la
-            competencia. Ahí está tu valor" </i> 
             <Btn to={"/redes-anuncios"}>Elige un plan para tu negocio</Btn>
           </PMarketing>
 

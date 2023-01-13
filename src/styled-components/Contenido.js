@@ -21,27 +21,27 @@ const Articulo = styled.section`
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
     place-items: center;
+    margin: 0;
     p {
       font-size: 1.2rem;
       font-weight: 600;
       text-align: center;
     }
     a {
-      width: 60%;
+      max-width: 75%;
       margin: 1rem auto;
     }
   }
 `;
 const PMarketing = styled.section`
   color: ${colores.oscuroSuave}; 
-  margin-left: 2.2rem;  
+  margin-left: 2rem;  
   display: flex;
   flex-direction: column;
   h4,i{
     font-family: 'Karla', sans-serif;
     font-weight: 400;
   }
-
 `;
 
 const ImgMarketing = styled.section`
