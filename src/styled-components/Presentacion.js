@@ -15,6 +15,7 @@ const ContenedorPresentacion = styled.main`
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
     background-image: none;
+    max-height: 100vh;
   }
 `;
 
@@ -67,14 +68,10 @@ const ContenedorBg = styled.aside`
   width: 100%;
   margin-top: -3rem;
 }
- /* @media (max-width: 768px) {
-    margin: 0;
-    padding: 0;
-  }*/
-@media(max-width: 1200px){
-  .imgPersona {
-    margin: 0;
-    width: 100vw;
+@media(max-width: 300px){
+  .imgPersona{
+    display: none;
+  }
 }
 `;
 

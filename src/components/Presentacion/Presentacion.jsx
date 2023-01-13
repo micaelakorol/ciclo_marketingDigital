@@ -7,7 +7,6 @@ import {
   ContenedorBg,ComoLoHago
 } from "../../styled-components/Presentacion";
 import { ReactComponent as ImagenPresentacion } from "../../assets/img.svg";
-
 const Presentacion = () => {
   return (
     <>
