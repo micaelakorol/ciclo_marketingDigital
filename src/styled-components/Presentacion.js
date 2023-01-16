@@ -64,12 +64,12 @@ const ContenedorBg = styled.aside`
   justify-content: center;
   align-items: center;
   padding: 0.5rem;
-.imgPersona{
+.social-media{
   width: 100%;
   margin-top: -3rem;
 }
 @media(max-width: 300px){
-  .imgPersona{
+  .social-media{
     display: none;
   }
 }

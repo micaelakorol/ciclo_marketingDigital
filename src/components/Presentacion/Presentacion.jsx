@@ -6,21 +6,21 @@ import {
   InformacionPrincipal,
   ContenedorBg,ComoLoHago
 } from "../../styled-components/Presentacion";
-import { ReactComponent as ImagenPresentacion } from "../../assets/img.svg";
+import { ReactComponent as ImagenPresentacion } from "../../assets/socialmedia.svg";
 const Presentacion = () => {
   return (
     <>
       <ContenedorPresentacion>
         <InformacionPrincipal>
           <Titulo>
-            ¡Hola! Soy Nicolas, creador de Ciclo Marketing Digital, Especialista en Social Media.
+            Somos un equipo de trabajadores freelancers
           </Titulo>
           <Descripcion as='h3'>
-            Mi propósito es ayudarte a impulsar tu marca y hacer crecer tu
+            Nuestro propósito es ayudarte a impulsar tu marca y hacer crecer tu
             negocio.
           </Descripcion>
           <ComoLoHago>
-            ¿Cómo lo hago?
+            ¿Cómo lo hacemos?
           </ComoLoHago>
           <Descripcion>
             Diseñando e implementando estrategias según tus objetivos.
@@ -31,8 +31,8 @@ const Presentacion = () => {
 {/* Contenedor imagen */}
         <ContenedorBg>
           <ImagenPresentacion
-            className="imgPersona"
-            alt="presentacion nicolas"
+            className="social-media"
+            alt="social media servicios"
           />
         </ContenedorBg>
       </ContenedorPresentacion>
