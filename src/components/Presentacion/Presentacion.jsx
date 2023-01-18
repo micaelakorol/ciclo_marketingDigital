@@ -16,7 +16,7 @@ const Presentacion = () => {
             Somos un equipo de trabajadores freelancers
           </Titulo>
           <Descripcion as='h3'>
-            Nuestro propósito es ayudarte a impulsar tu marca, y hacer crecer tu
+            Nuestro propósito es ayudarte a impulsar tu marca y hacer crecer tu
             negocio. {/* siguiendo una serie de pasos que te llevaran al exito */}
           </Descripcion>
           <ComoLoHago>
