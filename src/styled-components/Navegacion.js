@@ -9,9 +9,10 @@ const Header = styled.header`
   background: ${colores.blanco};
   display: grid;
   grid-template-columns: repeat(2, 40% 60%);
-  margin-bottom: .1rem;
-box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-  @media(max-width: 767px){
+  margin-bottom: 0.1rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  @media (max-width: 767px) {
     display: none;
   }
 `;
@@ -23,23 +24,23 @@ const Elements = styled.nav`
   padding-right: 4rem;
 `;
 
-
 const Links = styled(NavLink)`
   color: ${colores.links};
-  font-size: .88rem;
-  font-weight: 700;
-  padding: .5rem;
+  font-family: "Karla", sans-serif;
+  font-size: 0.99rem;
+  font-weight: 400;
+  padding: 0.5rem;
   text-transform: uppercase;
-  &:hover{
+  &:hover {
     color: ${colores.verdeHLinks};
     text-decoration: underline;
   }
-  @media(max-width: 1024px){
-    font-size: .6rem;
+  @media (max-width: 1024px) {
+    font-size: 0.8rem;
   }
 `;
 
-const Formulario = styled(Links)``
+const Formulario = styled(Links)``;
 
 const ContenedorImg = styled(Link)`
   display: flex;
@@ -50,7 +51,5 @@ const ContenedorImg = styled(Link)`
     padding: 0.5rem;
   }
 `;
-
-
 
 export { Elements, ContenedorImg, Links, Header, Formulario };

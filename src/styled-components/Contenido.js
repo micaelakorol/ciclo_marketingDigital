@@ -39,7 +39,6 @@ const PMarketing = styled.section`
   display: flex;
   flex-direction: column;
   h4,i{
-    font-family: 'Karla', sans-serif;
     font-weight: 400;
   }
 `;

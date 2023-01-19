@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { DescripcionTarjeta } from "../../styled-components/Servicios";
 import { colores, temas } from "../../styled-components/Colores";
-import { ArticuloRedes, ContenedorPlanRedes } from "./GestionRedes";
+import { ArticuloRedes, ContenedorPlanRedes, DescripcionRedes } from "./GestionRedes";
 import { BtnPlanes } from "./Planes";
 
 const ContenedorDesarrollo = styled.article`
@@ -65,11 +65,14 @@ const ParrafoDW = styled.p`
   margin-bottom: .8rem;
   font-size: 1rem;
 `
+const DetallesPagina = styled(DescripcionRedes)`
+font-weight: 500;
+`
 
 export {
   ContenidoDesarrollo,
   ArticuloDesarrollo,ParrafoDW,
-  TituloTarjeta,
+  TituloTarjeta,DetallesPagina,
   BtnDesarrollo,
   ContenedorPlanDesarrollo,ContenedorDesarrollo
 };

@@ -1,9 +1,9 @@
 import React from "react";
 import { ContenedorTarjetas } from "../../styled-components/Servicios";
-import { DescripcionRedes } from "../styled-components/GestionRedes";
 import {
   TituloTarjeta,
   ContenedorDesarrollo,
+  DetallesPagina,
 } from "../styled-components/DesarrolloWeb";
 import tiposSitios from "./Data/TiposSitios";
 import { Subtitulo } from "../styled-components/Planes";
@@ -22,10 +22,10 @@ const TiposDeSitios = () => {
           <ContenedorTarjetas key={item.id}>
             <img src={item.img} alt="Iconos" className="desarrollo-web" />
             <TituloTarjeta>{item.titulo}</TituloTarjeta>
-            <DescripcionRedes as="details">
+            <DetallesPagina as="details">
               <summary>¿Qué es?</summary>
               {item.descripcion}
-            </DescripcionRedes>
+            </DetallesPagina>
           </ContenedorTarjetas>
         ))}
       </ContenedorDesarrollo>
