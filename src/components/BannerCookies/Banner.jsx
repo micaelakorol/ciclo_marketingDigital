@@ -1,4 +1,4 @@
-import React from "react";
+/*import React from "react";
 //import CookieBanner from "react-cookie-banner/lib";
 import CookieConsent, { resetCookieConsentValue } from "react-cookie-consent";
 import { LinkPoliticas } from "../../styled-components/BannerCookies";
@@ -36,4 +36,4 @@ const Banner = () => {
   );
 };
 
-export default Banner;
+export default Banner;*/
