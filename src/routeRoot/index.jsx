@@ -6,6 +6,7 @@ import Render from "../components/Render";
 import Blog from "../pages/Blog/Blog";
 import DesarrolloWeb from "../pages/DesarrolloWeb/DesarrolloWeb";
 import GestionRedes from "../pages/GestionRedes/GestionRedes";
+import Politicas from "../pages/Politicas/Politicas";
 
 export const router = createBrowserRouter([
     {
@@ -35,6 +36,10 @@ export const router = createBrowserRouter([
                     {
                         path: "/blog",
                         element: <Blog />,
+                    },
+                    {
+                        path: "/politicas-de-privacidad",
+                        element: <Politicas />,
                     },
                     {
                         path: "*",

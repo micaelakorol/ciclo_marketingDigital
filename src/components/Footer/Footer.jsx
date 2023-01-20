@@ -8,17 +8,14 @@ import {
   LogoFooter,
 } from "../../styled-components/Footer";
 import Social from "./Social";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <>
       <FooterPagina as="footer">
         <LogoFooter>
-          <img
-            src={logo}
-            alt="Logo de marketing"
-            className="logomkt"
-          />
+          <img src={logo} alt="Logo de marketing" className="logomkt" />
         </LogoFooter>
 
         <Contacto>
@@ -53,14 +50,7 @@ const Footer = () => {
           >
             Cotización de Campañas
           </a>
-          <a
-            href="https://www.iubenda.com/privacy-policy/92793178/legal"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Politicas de Privacidad
-          </a>
-          
+          <Link to="/politicas-de-privacidad">Politicas de Privacidad</Link>
         </Recursos>
         <Redes>
           <Social />
