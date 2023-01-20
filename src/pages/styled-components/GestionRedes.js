@@ -22,17 +22,17 @@ const DescripcionRedes = styled(DescripcionTarjeta)`
   text-align: center;
   font-weight: 600;
   .btnObjetivos {
-    width: 30%;
+    width: 50%;
     margin-top: 1.4rem;
     transition: all 1s;
   }
   .btnObjetivos:hover {
     opacity: 0.9;
-    width: 33%;
+    width: 55%;
   }
   @media (max-width: 768px) {
     .btnObjetivos {
-      width: 80%;
+      width: 90%;
     }
   }
 `;
@@ -60,7 +60,7 @@ const ContenedorPlanRedes = styled.section`
   padding: 2rem;
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  width: 40%;
+  width: 45%;
   margin: 2rem auto;
   max-height: 100vh;
   max-width: 100vw;
