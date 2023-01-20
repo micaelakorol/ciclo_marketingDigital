@@ -8,10 +8,9 @@ const GridContainer = styled.article`
     width: 75vw;
   }
   @media (max-width: 1024px) {
-    grid-template-columns: repeat(2, 40%);
-    width: 80vw;
-    place-content: space-around;
-    gap: .5rem;
+    grid-template-columns: repeat(3, 32%);
+    width: 100vw;
+    gap: .3rem;
   }
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
