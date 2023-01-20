@@ -54,12 +54,13 @@ const Footer = () => {
             Cotización de Campañas
           </a>
           <a
-            href=" https://www.iubenda.com/privacy-policy/92793178/legal"
+            href="https://www.iubenda.com/privacy-policy/92793178/legal"
             target="_blank"
             rel="noreferrer"
           >
             Politicas de Privacidad
           </a>
+          
         </Recursos>
         <Redes>
           <Social />
