@@ -8,6 +8,12 @@ margin: .4rem;
 p,b{
     font-size: .9rem;
 }
+.tyc{
+    color: black;
+    font-size: .9rem;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
 `
 
 const TituloPolitica = styled.h2`
