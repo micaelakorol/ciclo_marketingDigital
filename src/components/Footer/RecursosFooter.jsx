@@ -5,7 +5,7 @@ const RecursosFooter = () => {
   return (
     <Recursos>
     <b>Recursos</b>
-      <Link to="/politicas-de-privacidad">Politicas de Privacidad </Link>
+      <Link to="/politicas-de-privacidad">Politicas de Privacidad | T&C</Link>
     <Link to="/politicas-de-cookies">Politicas de Cookies</Link>
   </Recursos>
   )

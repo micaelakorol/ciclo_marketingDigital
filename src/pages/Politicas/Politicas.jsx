@@ -5,9 +5,11 @@ import {
   TituloItems,
   PoliticaCompleta,TituloPrincipalPoliticas
 } from "../styled-components/Politicas";
+import { Link } from "react-router-dom";
 
 const Politicas = () => {
   return (
+    <>
     <ContenedorPolitica>
       <TituloPrincipalPoliticas>Política de privacidad</TituloPrincipalPoliticas>
       <TituloPrincipalPoliticas>
@@ -15,7 +17,8 @@ const Politicas = () => {
       </TituloPrincipalPoliticas>
       <ParrafoPolitica>
         {" "}
-        Este Sitio Web recoge algunos Datos Personales de sus Usuarios.
+        Este Sitio Web recoge algunos Datos Personales de sus Usuarios. <br />
+        <Link to='/terminos-y-condiciones'>Ver Terminos y Condiciones</Link>
       </ParrafoPolitica>
 
       <TituloItems>
@@ -65,6 +68,7 @@ const Politicas = () => {
         Ver Politica de Privacidad Completa
       </PoliticaCompleta>
     </ContenedorPolitica>
+    </>
   );
 };
 

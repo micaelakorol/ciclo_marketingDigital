@@ -8,6 +8,7 @@ import DesarrolloWeb from "../pages/DesarrolloWeb/DesarrolloWeb";
 import GestionRedes from "../pages/GestionRedes/GestionRedes";
 import Politicas from "../pages/Politicas/Politicas";
 import Cookies from "../pages/Politicas/Cookies";
+import TyC from "../pages/Politicas/TyC";
 export const router = createBrowserRouter([
     {
         path: "/",
@@ -44,6 +45,10 @@ export const router = createBrowserRouter([
                     {
                         path: "/politicas-de-cookies",
                         element: <Cookies />,
+                    },
+                    {
+                        path: "/terminos-y-condiciones",
+                        element: <TyC />,
                     },
                     {
                         path: "*",
