@@ -21,6 +21,7 @@ const FooterPagina = styled.footer`
   }
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
+    text-align: center;
     b,
     a {
       margin: 0.2rem;
