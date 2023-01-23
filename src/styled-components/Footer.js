@@ -8,34 +8,25 @@ const FooterPagina = styled.footer`
   grid-template-columns: repeat(4, 25%);
   place-items: center;
   max-height: 100%;
-  padding: 1rem;
+  padding: .5rem;
   background-image: url(${bg2});
   background-repeat: no-repeat;
   background-position: left;
-  text-align: center;
   b {
     color: black;
     font-size: 0.9rem;
-    margin: 2.6rem 0 0.3rem 0;
   }
   .copy {
     font-size: 0.7rem;
   }
-  .logomkt {
-    margin-top: 1rem;
-  }
   @media (max-width: 768px) {
-    grid-template-columns: repeat(3, 1fr);
-    .logomkt {
-      margin: 0;
-    }
+    grid-template-columns: 1fr;
     b,
     a {
       margin: 0.2rem;
     }
   }
   @media (max-width: 480px) {
-    grid-template-columns: 1fr;
     margin-top: 1rem;
   }
 `;
@@ -56,13 +47,13 @@ const Contacto = styled.div`
 //--------------------//
 const Recursos = styled(Contacto)``;
 //--------------------//
-const Redes = styled.div`
+const Redes = styled(Contacto)`
   display: flex;
-  flex-direction: row;
-  margin-top: 1rem;
+  flex-direction: column;
 `;
 //--------------------//
 const SocialRedes = styled.div`
+margin-top: .5rem;
   svg {
     margin: 0.3rem;
     cursor: pointer;

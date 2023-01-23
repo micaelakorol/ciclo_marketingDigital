@@ -7,7 +7,7 @@ import Blog from "../pages/Blog/Blog";
 import DesarrolloWeb from "../pages/DesarrolloWeb/DesarrolloWeb";
 import GestionRedes from "../pages/GestionRedes/GestionRedes";
 import Politicas from "../pages/Politicas/Politicas";
-
+import Cookies from "../pages/Politicas/Cookies";
 export const router = createBrowserRouter([
     {
         path: "/",
@@ -40,6 +40,10 @@ export const router = createBrowserRouter([
                     {
                         path: "/politicas-de-privacidad",
                         element: <Politicas />,
+                    },
+                    {
+                        path: "/politicas-de-cookies",
+                        element: <Cookies />,
                     },
                     {
                         path: "*",

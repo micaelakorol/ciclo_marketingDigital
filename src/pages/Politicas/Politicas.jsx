@@ -1,27 +1,27 @@
 import React from "react";
 import {
   ParrafoPolitica,
-  TituloPolitica,
   ContenedorPolitica,
   TituloItems,
-  PoliticaCompleta,
+  PoliticaCompleta,TituloPrincipalPoliticas
 } from "../styled-components/Politicas";
 
 const Politicas = () => {
   return (
     <ContenedorPolitica>
-      <TituloPolitica>
-        Política de privacidad de ciclomarketing.digital
-      </TituloPolitica>
-
+      <TituloPrincipalPoliticas>Política de privacidad</TituloPrincipalPoliticas>
+      <TituloPrincipalPoliticas>
+        Ciclo Marketing Digital y Desarrollo
+      </TituloPrincipalPoliticas>
       <ParrafoPolitica>
+        {" "}
         Este Sitio Web recoge algunos Datos Personales de sus Usuarios.
       </ParrafoPolitica>
 
       <TituloItems>
         Titular y Responsable del tratamiento de los Datos
       </TituloItems>
-      <ParrafoPolitica>Ciclo Marketing Digital</ParrafoPolitica>
+      <ParrafoPolitica>Ciclo Marketing Digital y Desarrollo</ParrafoPolitica>
       <ParrafoPolitica>
         Correo electrónico de contacto del Titular: micaelakorol@gmail.com{" "}
         <br />
@@ -58,7 +58,10 @@ const Politicas = () => {
         para declinar las cookies.
       </ParrafoPolitica>
 
-      <PoliticaCompleta href="https://www.iubenda.com/privacy-policy/92793178/legal">
+      <PoliticaCompleta
+        href={require("../../components/Footer/politicaPrivacidad.pdf")}
+        target="_blank"
+      >
         Ver Politica de Privacidad Completa
       </PoliticaCompleta>
     </ContenedorPolitica>

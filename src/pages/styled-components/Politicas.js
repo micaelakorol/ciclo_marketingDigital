@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { Ancla } from "./Planes";
 import { colores } from "../../styled-components/Colores";
+import { TituloPrincipal } from "../../styled-components/Servicios";
 
 const ContenedorPolitica = styled.div`
 margin: .4rem;
@@ -30,4 +31,8 @@ text-decoration: underline;
 font-size: .7rem;
 `
 
-export {TituloPolitica, ParrafoPolitica,ContenedorPolitica,TituloItems,PoliticaCompleta}
+const TituloPrincipalPoliticas = styled(TituloPrincipal)`
+margin: 0;
+`
+
+export {TituloPolitica, ParrafoPolitica,ContenedorPolitica,TituloItems,PoliticaCompleta,TituloPrincipalPoliticas}
