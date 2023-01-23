@@ -13,7 +13,7 @@ export const data = {
     {
       id: 2,
       img: "https://i.ibb.co/WkhQGmt/sinproposito.png",
-      descripcion: "Publicaciones sin proposito",
+      descripcion: "Publicaciones sin propósito",
     },
     {
       id: 3,
@@ -23,7 +23,7 @@ export const data = {
     {
       id: 4,
       img: "https://i.ibb.co/pjGp3Pn/sin-Objetivo.png1",
-      descripcion: "No sabes cual es tu objetivo",
+      descripcion: "No sabés cual es tu objetivo",
     },
   ],
 };

@@ -8,7 +8,7 @@ const PlanDesarrollo = () => {
     const descripcionPlan = planDesarrollo.items
   return (
    <>
-   <Subtitulo>Todos nuestros planes incluyen</Subtitulo>
+   <Subtitulo>Todos nuestros planes incluyen:</Subtitulo>
    <ContenedorPlanDesarrollo>
         <DescripcionRedes as="ul">
           {descripcionPlan.map((item) => (
