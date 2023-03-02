@@ -25,9 +25,10 @@ const Tarjeta = () => {
             </ImgTarjeta>
             <TituloTarjeta>{item.titulo}</TituloTarjeta>
             <DescripcionTarjeta>{item.descripcion}</DescripcionTarjeta>
+            {item.descripcion2 && 
             <DescripcionTarjeta>
-              {item.descripcion2 && item.descripcion2}
-            </DescripcionTarjeta>
+              {item.descripcion2 ? item.descripcion2 : null}
+            </DescripcionTarjeta>}
           </ContenedorTarjetas>
         ))}
       </ContenedorServicios>

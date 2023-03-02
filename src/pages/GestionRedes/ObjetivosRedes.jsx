@@ -13,7 +13,7 @@ const ObjetivosRedes = () => {
   let queHare = dataGestion.items;
   return (
     <>
-      <Subtitulo>Te voy a ayudar a impulsar y gestionar tus redes</Subtitulo>
+      <Subtitulo>Te ayudamos a potenciar y administrar tus redes sociales</Subtitulo>
       <TituloPrincipal as='h4'>¿Cómo lo vamos a hacer?</TituloPrincipal>
       <ArticuloRedes as='article'>
         <DescripcionRedes as="ul">

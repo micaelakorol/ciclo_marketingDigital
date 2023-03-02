@@ -1,5 +1,5 @@
 import React from "react";
-import { Redes, SocialRedes } from "../../styled-components/Footer";
+import { SocialRedes } from "../../styled-components/Footer";
 
 const Social = () => {
   return (
@@ -46,10 +46,6 @@ const Social = () => {
           </svg>
         </a>
       </SocialRedes>
-      <Redes>
-        {" "}
-        <a href="mailto:micaelakorol@gmail.com">Soporte Programador</a>{" "}
-      </Redes>
     </>
   );
 };

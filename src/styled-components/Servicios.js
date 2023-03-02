@@ -11,8 +11,11 @@ const TituloPrincipal = styled.h2`
 `;
 
 const ContenedorServicios = styled(Contenedor)`
+  @media(max-width:1200px){
+  grid-template-columns: repeat(2, 35%);
+}
 @media(max-width:768px){
-  grid-template-columns: 70%;
+  grid-template-columns: 75%;
 }
 `;
 const ContenedorTarjetas = styled.section`

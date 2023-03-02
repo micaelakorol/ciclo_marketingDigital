@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const GridContainer = styled.article`
   display: grid;
-  grid-template-columns: repeat(3, 26%);
+  grid-template-columns: repeat(3, 25%);
   justify-content: center;
   @media (min-width: 1900px) {
     width: 75vw;
@@ -19,6 +19,7 @@ const GridContainer = styled.article`
   }
 `
 const Contenedor = styled(GridContainer)`
+  grid-template-columns: repeat(4, 24%);
   overflow-y: hidden;
   margin: 0.8rem auto;
   border-radius: 0.5rem;

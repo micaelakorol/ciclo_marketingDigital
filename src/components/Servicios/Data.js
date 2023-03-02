@@ -10,29 +10,31 @@ const data = {
         'Así es el mundo hoy: los usuarios "Googlean" absolutamente todo, y asegurarnos de aparecer en esas búsquedas es estar más cerca de nuestros clientes. Con Lemon aseguras estar en primeras posiciones en Google y otros buscadores, que es donde tus clientes realmente buscan.',
     },*/
     {
-      id: 1,
+      id: 0,
       img: 'https://i.ibb.co/Z27YyYZ/anuncios.png',
       titulo: "Públicidad Digital",
-      descripcion:
-      "¿Dónde se encuentra nuestro público? ",
-      descripcion2:"La mayoría está en las redes sociales. Esto significa que no podemos dejar Facebook Ads fuera de nuestras estrategias de inversion publicitaría. Comenzá a potenciar tu visibilidad y ventas de la marca."
+      descripcion:"La mayoría de nuestro público se encuentra en las redes sociales. Esto significa que no podemos dejar Facebook Ads fuera de nuestras estrategias de inversion publicitaría. Comenzá a potenciar tu visibilidad y ventas de la marca."
     
     },
     {
-      id: 2,
+      id: 1,
       img: 'https://i.ibb.co/ZJQVdSz/community.png',
       titulo: "Community Manager",
+      descripcion: "Nuestro objetivo es gestionar tus redes sociales, generar contenido de calidad, aumentar la afinidad con tu audiencia creando una comunidad digital alrededor de tu marca.",
+    },
+    {
+      id: 2,
+      img: 'https://i.ibb.co/5vLhsG2/diseno.png',
+      titulo: "Diseño Mobile y Web",
       descripcion:
-      "¿Necesitas gestionar tus redes y no tenes el tiempo suficiente?.",
-      descripcion2: "Nuestro objetivo es generar contenido de calidad, aumentar la afinidad con tu audiencia creando una comunidad digital alrededor de tu marca.",
+      "Creamos diseños de alta calidad, atractivos, que proporcionen una experiencia positiva al usuario y que además reflejen la marca y los valores de tú empresa. Ofrecemos una evaluación constante del usuario con el producto/servicio.",
     },
     {
       id: 3,
       img: 'https://i.ibb.co/Vm3mT4c/dev.png',
       titulo: "Desarrollo Web",
       descripcion:
-      "Una página web mejora la imagen de tu marca, además permite conectarte con clientes de todo el mundo, incrementar tus ventas y generar más confianza en el cliente.",
-      descripcion2:'Traenos tu diseño y nosotros hacemos lo demás!'
+      "Una página web aumenta la visibilidad y el alcance de tu marca. Además te permite conectar con posibles clientes de todo el mundo, lo cual incrementa las oportunidades de ventas.",
     },
 
 /*    {

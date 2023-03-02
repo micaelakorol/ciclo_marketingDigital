@@ -14,7 +14,7 @@ const GestionRedes = () => {
   let gestionRedes = data.items;
   return (
     <>
-      <Subtitulo>¿Tus redes sociales están en esta situación?</Subtitulo>
+      <Subtitulo>¿Tús redes sociales están en esta situación?</Subtitulo>
       <ContenedorRedes>
         {gestionRedes.map((item) => (
           <ContenedorTarjetas key={item.id}>

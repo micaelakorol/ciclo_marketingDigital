@@ -22,10 +22,7 @@ const TiposDeSitios = () => {
           <ContenedorTarjetas key={item.id}>
             <img src={item.img} alt="Iconos" className="desarrollo-web" />
             <TituloTarjeta>{item.titulo}</TituloTarjeta>
-            <DetallesPagina as="details">
-              <summary>¿Qué es?</summary>
-              {item.descripcion}
-            </DetallesPagina>
+            <DetallesPagina> {item.descripcion}</DetallesPagina>
           </ContenedorTarjetas>
         ))}
       </ContenedorDesarrollo>

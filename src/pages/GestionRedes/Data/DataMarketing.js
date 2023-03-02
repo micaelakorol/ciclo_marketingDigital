@@ -34,17 +34,14 @@ const dataGestion = {
     items: 'Construyendo una comunidad para fidelizar a tus clientes'
   },
   {id:1,
-    items: 'Crear una estrategia para tus publicaciones'
+    items: 'Creando una estrategia personalizada para tus publicaciones'
   },
   {id:2,
-    items: 'Convertir a tus seguidores en potenciales clientes'
+    items: 'Convertiendo a tus seguidores en potenciales clientes'
   },
   {id:3,
-    items: 'Estudiar tu publico objetivo'
-  },
-  {id:4,
-    items: 'Ahorrarás tiempo, me dedicaré a tu negocio'
-  },
+    items: 'Estudiando a tu público objetivo'
+  }
   ]
 }
 export default dataGestion;
