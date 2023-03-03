@@ -15,7 +15,7 @@ const Presentacion = () => {
         <InformacionPrincipal>
           <Titulo>Ciclo es un equipo de trabajadores freelancers</Titulo>
           <Descripcion as="h3">
-           Tenemos un objetivo en común: ¡que tú marca sea reconocida y llevarte al éxito!
+           Tenemos un objetivo en común: ¡Que tu marca sea reconocida y te lleve al éxito!
 
             {/*Humanizar tu marca es el primer paso. siguiendo una serie de pasos que te llevaran al exito */}
           </Descripcion>

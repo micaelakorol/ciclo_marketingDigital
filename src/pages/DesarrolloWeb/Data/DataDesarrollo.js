@@ -13,7 +13,7 @@ const dataDesarrollo = {
     {
       id: 3,
       descripcion:
-        "Aumentará tu visibilidad y atraerás nuevos posibles cliente",
+        "Aumentará tu visibilidad y atraerás nuevos posibles clientes",
     },
   ],
 };

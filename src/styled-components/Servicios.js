@@ -20,7 +20,7 @@ const ContenedorTarjetas = styled.section`
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
   &:hover {
-    background: ${temas.bgPlanes};
+    background: ${temas.bgPresentacion};
   }
   @media (max-width: 1200px) {
     width: 45%;

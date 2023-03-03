@@ -76,7 +76,7 @@ const ContenedorPlanRedes = styled.section`
   overflow: hidden;
   cursor: pointer;
   &:hover {
-    background: ${temas.bgPlanes};
+    background: ${temas.bgPresentacion};
     .btn {
       border: 1.7px dashed ${colores.blanco};
     }
