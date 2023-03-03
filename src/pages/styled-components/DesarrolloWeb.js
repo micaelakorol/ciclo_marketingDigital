@@ -1,25 +1,13 @@
 import styled from "styled-components";
 import { DescripcionTarjeta } from "../../styled-components/Servicios";
-import { colores, temas } from "../../styled-components/Colores";
+import { colores } from "../../styled-components/Colores";
 import { ArticuloRedes, ContenedorPlanRedes, DescripcionRedes } from "./GestionRedes";
-import { BtnPlanes } from "./Planes";
+import { Flex } from "../../styled-components/Flex";
 
-const ContenedorDesarrollo = styled.article`
-  display: grid;
-  grid-template-columns: repeat(4, 25%);
-  margin: 1rem;
-  place-content: center;
+const ContenedorDesarrollo = styled(Flex)`
+  margin: 1rem auto;
   .desarrollo-web{
     width: 45%;
-  }
-  summary::marker{
-  color: ${temas.bgMarronSuave};
-}
-  @media(max-width: 768px){
-    grid-template-columns: repeat(2, 45%);
-  }
-  @media(max-width: 480px){
-    grid-template-columns: 80%;
   }
 `
 
@@ -35,20 +23,6 @@ const ArticuloDesarrollo = styled(ArticuloRedes)`
 const TituloTarjeta = styled.h5`
   color: ${colores.pServicios};
   margin-bottom: 1rem;
-`;
-
-const BtnDesarrollo = styled(BtnPlanes)`
-  width: 60%;
-  margin-top: 1rem;
-  &:hover{
-    opacity: .9;
-  }
-  @media (max-width: 480px) {
-    width: 100%;
-    a {
-      font-size: 0.9rem;
-    }
-  }
 `;
 
 const ContenedorPlanDesarrollo = styled(ContenedorPlanRedes)`
@@ -73,6 +47,5 @@ export {
   ContenidoDesarrollo,
   ArticuloDesarrollo,ParrafoDW,
   TituloTarjeta,DetallesPagina,
-  BtnDesarrollo,
   ContenedorPlanDesarrollo,ContenedorDesarrollo
 };

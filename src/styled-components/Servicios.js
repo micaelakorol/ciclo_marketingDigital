@@ -1,6 +1,6 @@
 import styled /* , { keyframes } */ from "styled-components";
 import { colores, temas } from "./Colores";
-import { Contenedor } from "./Grid";
+import { Contenedor } from "./Flex";
 
 const TituloPrincipal = styled.h2`
   color: ${colores.oscuro};
@@ -10,24 +10,23 @@ const TituloPrincipal = styled.h2`
   margin: 2rem 0;
 `;
 
-const ContenedorServicios = styled(Contenedor)`
-  @media(max-width:1200px){
-  grid-template-columns: repeat(2, 35%);
-}
-@media(max-width:768px){
-  grid-template-columns: 75%;
-}
-`;
+const ContenedorServicios = styled(Contenedor)``;
 const ContenedorTarjetas = styled.section`
   padding: 1rem;
-  margin: 1rem;
+  margin: 0.6rem;
   height: auto;
-  max-width: 100%;
+  width: 19%;
+  text-align: center;
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
-  text-align: center;
-  &:hover{
+  &:hover {
     background: ${temas.bgPlanes};
+  }
+  @media (max-width: 1200px) {
+    width: 45%;
+  }
+  @media (max-width: 480px) {
+    width: 80%;
   }
 `;
 
@@ -45,12 +44,12 @@ const TituloTarjeta = styled.h3`
 const DescripcionTarjeta = styled.p`
   text-align: start;
   color: ${colores.pServicios};
-  font-family: 'Karla', sans-serif;
-  font-size: .9rem;
+  font-family: "Karla", sans-serif;
+  font-size: 0.9rem;
   @media (max-width: 768px) {
     text-align: center;
     margin: 0;
-    font-size: .7rem;
+    font-size: 0.7rem;
   }
 `;
 const ImgTarjeta = styled.section`

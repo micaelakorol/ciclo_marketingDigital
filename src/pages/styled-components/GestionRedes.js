@@ -1,20 +1,27 @@
 import styled from "styled-components";
 import { colores, temas } from "../../styled-components/Colores";
-import { GridContainer } from "../../styled-components/Grid";
-import { DescripcionTarjeta } from "../../styled-components/Servicios";
+import { Flex } from "../../styled-components/Flex";
+import {
+  ContenedorTarjetas,
+  DescripcionTarjeta,
+} from "../../styled-components/Servicios";
 import { Articulo } from "../../styled-components/Contenido";
 
-const ContenedorRedes = styled(GridContainer)`
-  width: 90vw;
+const ContenedorRedes = styled(Flex)`
+  width: 85vw;
   margin: 2rem auto;
   .gestion-redes {
     width: 45%;
   }
   @media (max-width: 768px) {
-    width: 50vw;
-  }
-  @media (max-width: 480px) {
     width: 100vw;
+  }
+`;
+
+const ContenedorTarjetaRD = styled(ContenedorTarjetas)`
+  width: 22%;
+  @media (max-width: 480px) {
+    width: 70vw;
   }
 `;
 
@@ -23,7 +30,7 @@ const DescripcionRedes = styled(DescripcionTarjeta)`
   font-weight: 600;
   .btnObjetivos {
     width: 50%;
-    margin-top: 1.4rem;
+    margin-top: 0.6rem;
     transition: all 1s;
   }
   .btnObjetivos:hover {
@@ -74,12 +81,12 @@ const ContenedorPlanRedes = styled.section`
       border: 1.7px dashed ${colores.blanco};
     }
   }
-
 `;
 
 export {
   ContenedorRedes,
   DescripcionRedes,
+  ContenedorTarjetaRD,
   ArticuloRedes,
   ItemArticulo,
   ContenedorPlanRedes,

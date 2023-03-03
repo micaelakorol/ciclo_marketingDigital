@@ -9,7 +9,6 @@ const Render = () => {
     <>
       <Presentacion />
       <Servicios />
-      {/* Planes y precios */}
       <Contenido />
       <Footer />
     </>

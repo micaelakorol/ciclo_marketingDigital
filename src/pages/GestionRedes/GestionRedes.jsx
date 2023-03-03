@@ -2,12 +2,9 @@ import React from "react";
 import { Subtitulo } from "../styled-components/Planes";
 import {
   ContenedorRedes,
-  DescripcionRedes,
+  DescripcionRedes,ContenedorTarjetaRD
 } from "../styled-components/GestionRedes";
 import {data} from "./Data/DataMarketing";
-import {
-  ContenedorTarjetas,
-} from "../../styled-components/Servicios";
 import ObjetivosRedes from "./ObjetivosRedes";
 import PlanRedesSociales from "./PlanRedesSociales";
 const GestionRedes = () => {
@@ -17,10 +14,10 @@ const GestionRedes = () => {
       <Subtitulo>¿Tús redes sociales están en esta situación?</Subtitulo>
       <ContenedorRedes>
         {gestionRedes.map((item) => (
-          <ContenedorTarjetas key={item.id}>
+          <ContenedorTarjetaRD key={item.id}>
             <img src={item.img} alt="Iconos" className="gestion-redes" />
             <DescripcionRedes>{item.descripcion}</DescripcionRedes>
-          </ContenedorTarjetas>
+          </ContenedorTarjetaRD>
         ))}
       </ContenedorRedes>
       {/** ------------------------------------------------------------*/}
