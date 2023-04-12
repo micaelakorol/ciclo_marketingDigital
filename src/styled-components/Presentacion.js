@@ -16,7 +16,7 @@ const ContenedorPresentacion = styled.main`
 `;
 
 const InformacionPrincipal = styled.section`
-  margin: 4rem 0 0 1rem;
+  margin: 2.4rem 0 0 1rem;
   @media (max-width: 1024px) {
     margin: 1rem 0 0 1rem;
   }
@@ -29,7 +29,7 @@ const Titulo = styled.h1`
   color: ${colores.oscuro};
   text-align: start;
   @media (max-width: 768px) {
-    margin-top: 1rem;
+    margin:0;
     font-size: 1.2rem;
   }
 `;
@@ -57,8 +57,13 @@ const ContenedorBg = styled.aside`
   align-items: center;
   padding: 0.5rem;
 .social-media{
-  width: 95%;
-  margin-top: -3rem;
+  width: 90%;
+  margin-top: -1.6rem;
+}
+@media(max-width: 768px){
+  .social-media{
+    height: auto;
+  }
 }
 @media(max-width: 300px){
   .social-media{

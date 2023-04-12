@@ -14,7 +14,7 @@ const Contenido = () => {
     <>
       <ContenidoPrincipal>
         <TituloPrincipal>
-          « ¡Llegá a tu audiencia sin perseguirlos! »
+          ¡Llegá a tu audiencia sin perseguirlos! 
         </TituloPrincipal>
         <Articulo>
           <PMarketing>

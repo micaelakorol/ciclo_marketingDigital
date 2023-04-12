@@ -54,7 +54,7 @@ const Btn = styled(Link)`
   font-size: .9rem;
   color: ${colores.oscuroSuave};
   filter: saturate(1.3);
-  margin: 1rem;
+  margin: 1rem 0;
   padding: 0.3rem;
   width: 15rem;
   text-align: center;
