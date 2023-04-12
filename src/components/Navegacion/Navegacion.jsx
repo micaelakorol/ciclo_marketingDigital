@@ -17,7 +17,7 @@ const Navigation = () => {
         <Elements> 
          <Links to="/redes-anuncios">Gestión Redes</Links>
           <Links to="/desarrollo">Desarrollo Web</Links>
-          <Links to="/blog">Blog</Links>
+       {/* Links to="/blog">Blog</Links> */}   
           <Formulario as='a' href="https://forms.gle/Sc8f1ccmL26Cci936" target="_blank" rel="noreferrer">Contacto</Formulario>
         </Elements>
       </Header>

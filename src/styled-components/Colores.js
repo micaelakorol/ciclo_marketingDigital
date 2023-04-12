@@ -1,5 +1,5 @@
 export const colores = {
-  oscuro:'#010101',
+  oscuro:'#241C15',
   oscuroSuave: '#000000',
   verdeHLinks: '#033d69',
   links:'hsl(256, 26%, 20%)',

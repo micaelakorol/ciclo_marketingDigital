@@ -7,7 +7,6 @@ const animacion = keyframes`
   }
   50% {
    left: 0px ;
-  // background: rgba(255, 255, 255, 0.795) ;
   }
    
   100% {

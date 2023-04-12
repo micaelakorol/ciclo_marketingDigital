@@ -2,29 +2,26 @@ import React from "react";
 import {
   ContenedorPresentacion,
   Titulo,
-  Descripcion,
   InformacionPrincipal,
   ContenedorBg,
   ComoLoHago,
 } from "../../styled-components/Presentacion";
-import { ReactComponent as ImagenPresentacion } from "../../assets/socialmedia.svg";
+import { ReactComponent as ImagenPresentacion } from "../../assets/principal.svg";
 const Presentacion = () => {
   return (
     <>
       <ContenedorPresentacion>
         <InformacionPrincipal>
-          <Titulo>Ciclo es un equipo de trabajadores freelancers</Titulo>
-          <Descripcion as="h3">
-           Tenemos un objetivo en común: ¡Que tu marca sea reconocida y te lleve al éxito!
-
-            {/*Humanizar tu marca es el primer paso. siguiendo una serie de pasos que te llevaran al exito */}
-          </Descripcion>
-          <ComoLoHago>¿Cómo lo vamos a conseguir?</ComoLoHago>
-          <Descripcion>
-           Diseñando una estrategia personalizada según tus objetivos.
-        Implementando campañas en medios digitales para llegar a más
-            potenciales clientes. 🚀
-          </Descripcion>
+          <Titulo> 
+          Te ayudamos a incrementar tus ventas a través de estrategias personalizadas según tus objetivos.🚀
+          </Titulo>
+         {/* <Descripcion as="h3">
+         * null 
+          </Descripcion>*/}
+          <ComoLoHago>¡Nuestros servicios están diseñados para ayudarte a mejorar!</ComoLoHago>
+         {/* <Descripcion>
+           * null 
+          </Descripcion>*/}
         </InformacionPrincipal>
         {/* Contenedor imagen */}
         <ContenedorBg>

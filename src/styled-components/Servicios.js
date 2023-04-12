@@ -7,7 +7,7 @@ const TituloPrincipal = styled.h2`
   text-align: center;
   text-transform: uppercase;
   font-size: 1.5rem;
-  margin: 2rem 0;
+  margin: 4rem 0 2rem 0;
 `;
 
 const ContenedorServicios = styled(Contenedor)``;

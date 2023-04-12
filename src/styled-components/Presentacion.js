@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import SvgFondo from "../assets/bg-pattern-intro-right-desktop.svg";
 import { colores, temas } from "./Colores";
 
 const ContenedorPresentacion = styled.main`
@@ -9,9 +8,6 @@ const ContenedorPresentacion = styled.main`
   overflow: hidden;
   background: ${temas.bgPresentacion};
   padding: 1rem;
-  background-image: url(${SvgFondo});
-  background-repeat: no-repeat;
-  background-position: right;
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
     background-image: none;
@@ -20,28 +16,30 @@ const ContenedorPresentacion = styled.main`
 `;
 
 const InformacionPrincipal = styled.section`
-  margin: 2rem 0 0 1rem;
+  margin: 4rem 0 0 1rem;
   @media (max-width: 1024px) {
     margin: 1rem 0 0 1rem;
   }
 `;
 const Titulo = styled.h1`
-  font-size: 1.3rem;
+  font-size: 1.9rem;
   margin-top: 2rem;
   padding: 0.4rem;
+  font-family: 'Open Sans', sans-serif;
   color: ${colores.oscuro};
   text-align: start;
-  text-transform: uppercase;
   @media (max-width: 768px) {
     margin-top: 1rem;
     font-size: 1.2rem;
   }
 `;
 
-const Descripcion = styled.p`
+const ComoLoHago = styled.p`
+  font-weight: 700;
+  font-size: 1.5rem;
   color: ${colores.oscuro};
   font-family: "Karla", sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   padding: 0.2rem;
   text-align: start;
   font-weight: normal;
@@ -53,19 +51,13 @@ const Descripcion = styled.p`
   }
 `;
 
-const ComoLoHago = styled(Descripcion)`
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 1.3rem;
-`;
-
 const ContenedorBg = styled.aside`
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0.5rem;
 .social-media{
-  width: 100%;
+  width: 95%;
   margin-top: -3rem;
 }
 @media(max-width: 300px){
@@ -78,7 +70,6 @@ const ContenedorBg = styled.aside`
 export {
   ContenedorPresentacion,
   Titulo,
-  Descripcion,
   InformacionPrincipal,
   ContenedorBg,
   ComoLoHago,
