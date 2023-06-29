@@ -37,7 +37,6 @@ const Contacto = styled.div`
   flex-direction: column;
   a {
     color: ${colores.oscuro};
-    font-weight: 600;
     font-size: 0.8rem;
   }
   a:hover {

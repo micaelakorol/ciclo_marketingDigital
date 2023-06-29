@@ -5,7 +5,7 @@ const Social = () => {
   return (
     <>
       <SocialRedes>
-        <a href="https://walink.co/59d305" target="_blank" rel="noreferrer">
+        <a href="https://wa.link/rpa4fh" target="_blank" rel="noreferrer">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
