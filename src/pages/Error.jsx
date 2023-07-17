@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Error = () => {
-  return (
- <aside>Parece que lo que buscas no existe :/</aside>
-  )
-}
+  return <aside>Parece que lo que buscas no existe :/</aside>;
+};
 
-export default Error
+export default Error;

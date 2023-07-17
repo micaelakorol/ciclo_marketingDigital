@@ -13,8 +13,7 @@ import {
 import dataDesarrollo from "./Data/DataDesarrollo";
 import TiposDeSitios from "./TiposDeSitios";
 import PlanDesarrollo from "./PlanDesarrollo";
-import { check,ilusWeb } from "../GestionRedes/Data/variables";
-
+import { check, ilusWeb } from "../GestionRedes/Data/variables";
 const PlanesDesarrolloWeb = () => {
   let beneficiosDesarrollo = dataDesarrollo.items;
 
@@ -40,7 +39,11 @@ const PlanesDesarrolloWeb = () => {
           </DescripcionRedes>
         </ContenidoDesarrollo>
         <ImgMarketing>
-              <img src={ilusWeb} alt="ilustracion-sitio-web" className="ilustracion-mkt" />
+          <img
+            src={ilusWeb}
+            alt="ilustracion-sitio-web"
+            className="ilustracion-mkt"
+          />
         </ImgMarketing>
       </ArticuloDesarrollo>
       <TiposDeSitios />

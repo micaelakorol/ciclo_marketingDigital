@@ -18,4 +18,4 @@ const dataDesarrollo = {
   ],
 };
 
-export default dataDesarrollo
+export default dataDesarrollo;

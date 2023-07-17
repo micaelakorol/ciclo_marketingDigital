@@ -9,7 +9,6 @@ import {
 import {logo} from './Variables/var'
 
 const Navigation = () => {
-
   return (
     <>
       <Header>
