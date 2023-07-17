@@ -6,7 +6,8 @@ import {
 } from "../styled-components/GestionRedes";
 import ObjetivosRedes from "./ObjetivosRedes";
 import PlanRedesSociales from "./PlanRedesSociales";
-import { data } from "./Data/dataMarketing";
+import { data } from "./Data/itemSocial";
+
 const GestionRedes = () => {
   let gestionRedes = data.items;
   return (

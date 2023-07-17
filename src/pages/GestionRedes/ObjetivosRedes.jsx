@@ -9,6 +9,7 @@ import {
 import { ImgMarketing } from "../../styled-components/Contenido";
 import { check, ilusMkt } from "./Data/variables";
 import { dataGestion } from "./Data/dataMarketing";
+
 const ObjetivosRedes = () => {
   let queHare = dataGestion.items;
   return (
