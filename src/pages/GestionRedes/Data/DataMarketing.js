@@ -1,4 +1,4 @@
-export const data = {
+const data = {
   items: [
     {
       id: 0,
@@ -42,4 +42,4 @@ const dataGestion = {
     { id: 3, items: "Estudiando a tu público objetivo" },
   ],
 };
-export default dataGestion;
+export {dataGestion,data}

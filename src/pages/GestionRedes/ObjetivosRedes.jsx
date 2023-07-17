@@ -6,9 +6,9 @@ import {
   DescripcionRedes,
   ItemArticulo,
 } from "../styled-components/GestionRedes";
-import dataGestion from "./Data/dataMarketing";
 import { ImgMarketing } from "../../styled-components/Contenido";
 import { check, ilusMkt } from "./Data/variables";
+import { dataGestion } from "./Data/dataMarketing";
 const ObjetivosRedes = () => {
   let queHare = dataGestion.items;
   return (
