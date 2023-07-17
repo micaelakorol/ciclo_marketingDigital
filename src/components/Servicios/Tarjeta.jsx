@@ -6,7 +6,7 @@ import {
   DescripcionTarjeta,
   ImgTarjeta,
 } from "../../styled-components/Servicios";
-import data from "./Data";
+import data from "./data/data";
 
 const Tarjeta = () => {
   let tarjeta = data.items;

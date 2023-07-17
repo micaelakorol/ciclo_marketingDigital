@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import bg2 from "../assets/bg-pattern-footer-mobile.svg";
 import { colores, temas } from "./Colores";
 
 const FooterPagina = styled.footer`
@@ -9,9 +8,6 @@ const FooterPagina = styled.footer`
   place-items: center;
   max-height: 100%;
   padding: .5rem;
-  background-image: url(${bg2});
-  background-repeat: no-repeat;
-  background-position: left;
   b {
     color: black;
     font-size: 0.9rem;
@@ -54,7 +50,7 @@ const Redes = styled(Contacto)`
 //--------------------//
 const SocialRedes = styled.div`
 margin-top: .5rem;
-  svg {
+  img {
     margin: 0.3rem;
     cursor: pointer;
   }

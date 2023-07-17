@@ -5,8 +5,8 @@ import {
   ItemArticulo,
   ContenedorPlanRedes,
 } from "../styled-components/GestionRedes";
-import planRedes from "./Data/PlanRedes";
-import { ReactComponent as Check } from "../../assets/check2.svg";
+import planRedes from "./Data/planRedes";
+import {check} from './Data/variables'
 
 const PlanRedesSociales = () => {
   let descripcionPlan = planRedes.items;
@@ -18,7 +18,7 @@ const PlanRedesSociales = () => {
           {descripcionPlan.map((item) => (
             <ItemArticulo>
               {" "}
-              <Check /> {item.descripcion}
+              <img src={check} alt="check" /> {item.descripcion}
             </ItemArticulo>
           ))}
           <BtnPlanes className="btn btnObjetivos">

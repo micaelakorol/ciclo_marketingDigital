@@ -80,7 +80,7 @@ const Politicas = () => {
           Teléfono: +541124000822
         </ParrafoPolitica>
         <PoliticaCompleta
-          href={require("../../components/Footer/politicaPrivacidad.pdf")}
+          href={require("../../components/Footer/PDF/politicaPrivacidad.pdf")}
           target="_blank" className='tyc'
         >
           Ver Politica de Privacidad Completa

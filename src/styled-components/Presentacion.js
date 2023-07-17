@@ -57,7 +57,6 @@ const ContenedorBg = styled.aside`
   align-items: center;
   padding: 0.5rem;
 .social-media{
-  width: 90%;
   margin-top: -1.6rem;
 }
 @media(max-width: 768px){

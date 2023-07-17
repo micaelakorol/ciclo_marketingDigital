@@ -1,6 +1,5 @@
 import React from "react";
 import { Subtitulo } from "../styled-components/Planes";
-import { ReactComponent as Check } from "../../assets/check2.svg";
 import {
   ArticuloDesarrollo,
   ContenidoDesarrollo,
@@ -12,9 +11,9 @@ import {
   ItemArticulo,
 } from "../styled-components/GestionRedes";
 import dataDesarrollo from "./Data/DataDesarrollo";
-import { ReactComponent as Web } from "../../assets/web.svg";
 import TiposDeSitios from "./TiposDeSitios";
 import PlanDesarrollo from "./PlanDesarrollo";
+import { check,ilusWeb } from "../GestionRedes/Data/variables";
 
 const PlanesDesarrolloWeb = () => {
   let beneficiosDesarrollo = dataDesarrollo.items;
@@ -22,22 +21,26 @@ const PlanesDesarrolloWeb = () => {
   return (
     <>
       <Subtitulo>¿Por qué es tan importante contar con un sitio web?</Subtitulo>
-      <ArticuloDesarrollo as='article'>
-        <ContenidoDesarrollo as='section'>
-          <ParrafoDW>Hoy en día, tener presencia en internet es fundamental para cualquier
-          emprendimiento o empresa. Pero, ¿Cuáles son los beneficios?</ParrafoDW>
-          
+      <ArticuloDesarrollo as="article">
+        <ContenidoDesarrollo as="section">
+          <ParrafoDW>
+            Hoy en día, tener presencia en internet es fundamental para
+            cualquier emprendimiento o empresa. Pero, ¿Cuáles son los
+            beneficios?
+          </ParrafoDW>
+
           <DescripcionRedes as="ul">
             {beneficiosDesarrollo.map((item) => (
               <ItemArticulo>
                 {" "}
-                <Check /> {item.descripcion}
+                <img src={check} alt="check" />
+                {item.descripcion}
               </ItemArticulo>
             ))}
           </DescripcionRedes>
         </ContenidoDesarrollo>
         <ImgMarketing>
-          <Web alt="ilustracion sitio web" className="ilustracion-mkt" />
+              <img src={ilusWeb} alt="ilustracion-sitio-web" className="ilustracion-mkt" />
         </ImgMarketing>
       </ArticuloDesarrollo>
       <TiposDeSitios />

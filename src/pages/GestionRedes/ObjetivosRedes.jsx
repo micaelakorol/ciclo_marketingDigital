@@ -4,11 +4,9 @@ import {
   TituloPrincipal,
 } from "../../styled-components/Servicios";
 import { ArticuloRedes, DescripcionRedes, ItemArticulo } from "../styled-components/GestionRedes";
-import dataGestion from "./Data/DataMarketing";
+import dataGestion from "./Data/dataMarketing";
 import { ImgMarketing } from "../../styled-components/Contenido";
-import { ReactComponent as IlustracionMkt } from "../../assets/seccionmkt.svg";
-import { ReactComponent as Check } from "../../assets/check2.svg";
-
+import {check, ilusMkt} from './Data/variables'
 const ObjetivosRedes = () => {
   let queHare = dataGestion.items;
   return (
@@ -19,18 +17,16 @@ const ObjetivosRedes = () => {
         <DescripcionRedes as="ul">
           {queHare.map((item) => (
             <ItemArticulo key={item.id}>
-              <Check /> {item.items}
+              <img src={check} alt="check" /> {item.items}
             </ItemArticulo>
           ))}
         <BtnPlanes className="btn btnObjetivos"> 
         <Ancla href="https://forms.gle/UfBkXRvRb2Rj8mp4A" target='_blank' rel="noreferrer">Me interesa</Ancla>
          </BtnPlanes>
         </DescripcionRedes>
+
         <ImgMarketing>
-          <IlustracionMkt
-            alt="ilustracion sobre marketing"
-            className="ilustracion-mkt"
-          />
+        <img src={ilusMkt} alt="ilustracion" className="ilustracion-mkt"/>
         </ImgMarketing>
       </ArticuloRedes>
     </>

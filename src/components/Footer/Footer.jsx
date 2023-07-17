@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../../assets/logoFooter.svg";
 import {
   FooterPagina,
   Redes,
@@ -8,13 +7,14 @@ import {
 import Social from "./Social";
 import ContactoFooter from "./ContactoFooter";
 import RecursosFooter from "./RecursosFooter";
+import {logoF} from './Variables/var'
 
 const Footer = () => {
   return (
     <>
       <FooterPagina as="footer">
         <LogoFooter>
-          <img src={logo} alt="Logo de marketing" className="logomkt" />
+          <img src={logoF} alt="Logo de marketing" className="logomkt" />
         </LogoFooter>
         <ContactoFooter />
         <RecursosFooter />

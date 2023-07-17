@@ -6,8 +6,8 @@ import {
   ContenedorBg,
   ComoLoHago,
 } from "../../styled-components/Presentacion";
-import { ReactComponent as ImagenPresentacion } from "../../assets/principal.svg";
 const Presentacion = () => {
+  const presentacion = 'https://res.cloudinary.com/dgqyqd2pa/image/upload/v1689607309/principal_gyle4m.svg'
   return (
     <>
       <ContenedorPresentacion>
@@ -25,10 +25,7 @@ const Presentacion = () => {
         </InformacionPrincipal>
         {/* Contenedor imagen */}
         <ContenedorBg>
-          <ImagenPresentacion
-            className="social-media"
-            alt="social media servicios"
-          />
+          <img src={presentacion} className="social-media"  alt="social media servicios" />
         </ContenedorBg>
       </ContenedorPresentacion>
 

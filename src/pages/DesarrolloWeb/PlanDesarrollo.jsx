@@ -2,8 +2,8 @@ import React from 'react'
 import { Ancla, BtnPlanes, Subtitulo } from '../styled-components/Planes'
 import {  DescripcionRedes, ItemArticulo } from '../styled-components/GestionRedes'
 import planDesarrollo from './Data/PlanDesarrollo'
-import {ReactComponent as Check} from '../../assets/check2.svg'
 import { ContenedorPlanDesarrollo } from '../styled-components/DesarrolloWeb'
+import { check } from "../GestionRedes/Data/variables";
 const PlanDesarrollo = () => {
     const descripcionPlan = planDesarrollo.items
   return (
@@ -14,7 +14,7 @@ const PlanDesarrollo = () => {
           {descripcionPlan.map((item) => (
             <ItemArticulo>
               {" "}
-              <Check /> {item.descripcion}
+              <img src={check} alt="check" /> {item.descripcion}
             </ItemArticulo>
           ))}
           <BtnPlanes className="btn btnObjetivos"> 

@@ -6,14 +6,16 @@ import {
   Elements,
   Formulario,
 } from "../../styled-components/Navegacion";
-import {ReactComponent as Logo} from '../../assets/logo.svg'
+import {logo} from './Variables/var'
 
 const Navigation = () => {
+
   return (
     <>
       <Header>
         <ContenedorImg to={'/'}> 
-        <Logo className="logo" alt='Logo marketing'/></ContenedorImg>
+        <img src={logo} alt="Logo marketing" />
+        </ContenedorImg>
         <Elements> 
          <Links to="/redes-anuncios">Gestión Redes</Links>
           <Links to="/desarrollo">Desarrollo Web</Links>

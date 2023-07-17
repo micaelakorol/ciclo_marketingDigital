@@ -6,32 +6,30 @@ import {
   Modal,
   ContainerLink,
 } from "../../styled-components/NavegacionMob";
-import { ReactComponent as Menu } from "../../assets/menu.svg";
-import { ReactComponent as Logo } from "../../assets/logo.svg";
-import { ReactComponent as Cerrar } from "../../assets/icon-close.svg";
 import { Formulario, Links } from "../../styled-components/Navegacion";
+import { menu, cerrar, logo } from "./Variables/var";
 const NavegacionMovil = () => {
   const [menuMobile, setMenuMobile] = useState(false);
-
   return (
     <ContenedorHeaderMob>
       <IconosMoviles>
-        <Menu
-          onClick={() => setMenuMobile(true)}
-          aria-expanded="true"
+        <img
+          src={menu}
           alt="Icono menu"
+          onClick={() => setMenuMobile(true)}
         />
       </IconosMoviles>
       {menuMobile ? (
         <Modal>
           <MenuMobile onClick={() => setMenuMobile(false)}>
-            <Logo className="logo-mobile" alt="logo marketing" />
-            <Cerrar
+            <img src={logo} alt="logo-marketing" />
+            <img
+              src={cerrar}
               className="btnCerrar"
-              onClick={() => setMenuMobile(false)}
               alt="Icono cerrar"
-              aria-expanded="false"
+              onClick={() => setMenuMobile(false)}
             />
+
             <ContainerLink>
               <Links to="/">Inicio</Links>
               <Links to="/redes-anuncios">Gestión Redes</Links>

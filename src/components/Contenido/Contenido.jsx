@@ -7,9 +7,9 @@ import {
   ImgMarketing,
   Btn,
 } from "../../styled-components/Contenido";
-import { ReactComponent as ContenidoImg } from "../../assets/contenido.svg";
 
 const Contenido = () => {
+  let img = 'https://res.cloudinary.com/dgqyqd2pa/image/upload/v1689607305/contenido_kpcbsm.svg'
   return (
     <>
       <ContenidoPrincipal>
@@ -26,7 +26,7 @@ const Contenido = () => {
           </PMarketing>
 
           <ImgMarketing>
-            <ContenidoImg className="contenido" alt="Ilustracion marketing" />
+          <img src={img} className="contenido" alt="Ilustracion marketing"/>
           </ImgMarketing>
         </Articulo>
       </ContenidoPrincipal>
