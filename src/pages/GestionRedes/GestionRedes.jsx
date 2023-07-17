@@ -4,9 +4,9 @@ import {
   ContenedorRedes,
   DescripcionRedes,ContenedorTarjetaRD
 } from "../styled-components/GestionRedes";
-import {data} from "./Data/dataMarketing";
 import ObjetivosRedes from "./ObjetivosRedes";
 import PlanRedesSociales from "./PlanRedesSociales";
+import { data } from "./Data/dataMarketing";
 const GestionRedes = () => {
   let gestionRedes = data.items;
   return (
