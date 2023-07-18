@@ -1,5 +1,5 @@
 const logoF =
-  "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1689607307/logoFooter_ltxee8.svg";
+  "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1689711704/logo/logoF_efamow.svg";
 const wsp =
   "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1689610317/whatsapp_wqndh2.svg";
 const email =
