@@ -12,4 +12,3 @@ export const dataGestion = {
     { id: 3, items: "Estudiando a tu público objetivo" },
   ],
 };
-

@@ -1,14 +1,16 @@
 import React from "react";
-import { Ancla, BtnPlanes, Subtitulo } from "../styled-components/Planes";
-import { TituloPrincipal } from "../../styled-components/Servicios";
+import {Subtitulo } from "../../styled-components/Planes";
+import { TituloPrincipal } from "../../../styled-components/Servicios";
 import {
   ArticuloRedes,
   DescripcionRedes,
   ItemArticulo,
-} from "../styled-components/GestionRedes";
-import { ImgMarketing } from "../../styled-components/Contenido";
-import { check, ilusMkt } from "./Data/variables";
-import { dataGestion } from "./Data/dataMarketing";
+} from "../../styled-components/GestionRedes";
+import { ImgMarketing } from "../../../styled-components/Contenido";
+import { ilusMkt } from "../Variables/variables";
+import { dataGestion } from "./objetivos";
+import BtnAccion from "../../../reusable/BtnAccion";
+import Check from "../../../reusable/Check";
 
 const ObjetivosRedes = () => {
   let queHare = dataGestion.items;
@@ -22,20 +24,13 @@ const ObjetivosRedes = () => {
         <DescripcionRedes as="ul">
           {queHare.map((item) => (
             <ItemArticulo key={item.id}>
-              <img src={check} alt="check" /> {item.items}
+            <Check /> {item.items}
             </ItemArticulo>
           ))}
-          <BtnPlanes className="btn btnObjetivos">
-            <Ancla
-              href="https://forms.gle/UfBkXRvRb2Rj8mp4A"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Me interesa
-            </Ancla>
-          </BtnPlanes>
+          <BtnAccion href="https://forms.gle/UfBkXRvRb2Rj8mp4A">
+            Me interesa
+          </BtnAccion>
         </DescripcionRedes>
-
         <ImgMarketing>
           <img src={ilusMkt} alt="ilustracion" className="ilustracion-mkt" />
         </ImgMarketing>

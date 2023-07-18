@@ -1,12 +1,13 @@
 import React from "react";
-import { Ancla, BtnPlanes, Subtitulo } from "../styled-components/Planes";
+import { Subtitulo } from "../../styled-components/Planes";
 import {
   DescripcionRedes,
   ItemArticulo,
   ContenedorPlanRedes,
-} from "../styled-components/GestionRedes";
-import planRedes from "./Data/planRedes";
-import {check} from './Data/variables'
+} from "../../styled-components/GestionRedes";
+import planRedes from "./planRedes";
+import BtnAccion from "../../../reusable/BtnAccion";
+import Check from "../../../reusable/Check";
 
 const PlanRedesSociales = () => {
   let descripcionPlan = planRedes.items;
@@ -17,17 +18,13 @@ const PlanRedesSociales = () => {
         <DescripcionRedes as="ul">
           {descripcionPlan.map((item) => (
             <ItemArticulo>
-              {" "}
-              <img src={check} alt="check" /> {item.descripcion}
+              <Check /> {item.descripcion}
             </ItemArticulo>
           ))}
-          <BtnPlanes className="btn btnObjetivos">
-            <Ancla href="https://forms.gle/UfBkXRvRb2Rj8mp4A" target='_blank' rel="noreferrer">¡Comencemos!</Ancla>
-          </BtnPlanes>
+          <BtnAccion href="https://forms.gle/UfBkXRvRb2Rj8mp4A">¡Comencemos!</BtnAccion>
         </DescripcionRedes>
       </ContenedorPlanRedes>
     </>
   );
 };
-
 export default PlanRedesSociales;

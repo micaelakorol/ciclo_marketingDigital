@@ -1,18 +1,21 @@
 import React from "react";
-import { Subtitulo } from "../styled-components/Planes";
+import { Subtitulo } from "../../styled-components/Planes";
 import {
   ContenedorRedes,
-  DescripcionRedes,ContenedorTarjetaRD
-} from "../styled-components/GestionRedes";
-import ObjetivosRedes from "./ObjetivosRedes";
-import PlanRedesSociales from "./PlanRedesSociales";
-import { data } from "./Data/itemSocial";
+  DescripcionRedes,
+  ContenedorTarjetaRD,
+} from "../../styled-components/GestionRedes";
+import ObjetivosRedes from "../Objetivos/ObjetivosRedes";
+import PlanRedesSociales from "../PlanRedes/PlanRedesSociales";
+import { data } from "./itemGestion";
 
 const GestionRedes = () => {
   let gestionRedes = data.items;
   return (
     <>
-      <Subtitulo>¿Tus redes sociales se encuentran en esta situación?</Subtitulo>
+      <Subtitulo>
+        ¿Tus redes sociales se encuentran en esta situación?
+      </Subtitulo>
       <ContenedorRedes>
         {gestionRedes.map((item) => (
           <ContenedorTarjetaRD key={item.id}>
@@ -21,9 +24,8 @@ const GestionRedes = () => {
           </ContenedorTarjetaRD>
         ))}
       </ContenedorRedes>
-      {/** ------------------------------------------------------------*/}
-<ObjetivosRedes />
-<PlanRedesSociales />
+      <ObjetivosRedes />
+      <PlanRedesSociales />
     </>
   );
 };

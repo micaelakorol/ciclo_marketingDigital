@@ -14,7 +14,7 @@ const Footer = () => {
     <>
       <FooterPagina as="footer">
         <LogoFooter>
-          <img src={logoF} alt="Logo de marketing" className="logomkt" />
+          <img src={logoF} alt="logo-ciclo" className="logomkt" />
         </LogoFooter>
         <ContactoFooter />
         <RecursosFooter />

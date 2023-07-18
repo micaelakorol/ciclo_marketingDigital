@@ -17,7 +17,7 @@ const Header = styled.header`
   }
 `;
 
-const Elements = styled.nav`
+const Elementos = styled.nav`
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -40,7 +40,6 @@ const Links = styled(NavLink)`
   }
 `;
 
-const Formulario = styled(Links)``;
 
 const ContenedorImg = styled(Link)`
   display: flex;
@@ -52,4 +51,4 @@ const ContenedorImg = styled(Link)`
   }
 `;
 
-export { Elements, ContenedorImg, Links, Header, Formulario };
+export { Elementos, ContenedorImg, Links, Header };

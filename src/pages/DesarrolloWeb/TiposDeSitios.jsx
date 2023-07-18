@@ -13,14 +13,13 @@ const TiposDeSitios = () => {
   return (
     <>
       <Subtitulo className="item-importante" as="h4">
-        {" "}
         Hay varios tipos de sitios web, escoger uno dependerá unicamente de tu
-        objetivo{" "}
+        objetivo
       </Subtitulo>
       <ContenedorDesarrollo>
         {descripcionSitios.map((item) => (
           <ContenedorTarjetas key={item.id}>
-            <img src={item.img} alt="Iconos" className="desarrollo-web" />
+            <img src={item.img} alt="icono" className="desarrollo-web" />
             <TituloTarjeta>{item.titulo}</TituloTarjeta>
             <DetallesPagina> {item.descripcion}</DetallesPagina>
           </ContenedorTarjetas>

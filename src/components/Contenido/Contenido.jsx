@@ -7,7 +7,6 @@ import {
   ImgMarketing,
   Btn,
 } from "../../styled-components/Contenido";
-
 const Contenido = () => {
   let img = 'https://res.cloudinary.com/dgqyqd2pa/image/upload/v1689607305/contenido_kpcbsm.svg'
   return (
@@ -24,7 +23,6 @@ const Contenido = () => {
             <b>Comenzá tu proceso de venta escogiendo el plan adecuado. </b>
             <Btn to={"/redes-anuncios"}>Elige un plan para tu negocio</Btn>
           </PMarketing>
-
           <ImgMarketing>
           <img src={img} className="contenido" alt="Ilustracion marketing"/>
           </ImgMarketing>

@@ -1,25 +1,17 @@
 import React from "react";
 import { Contacto } from "../../styled-components/Footer";
+import Link from "../../reusable/Link";
 
 const ContactoFooter = () => {
   return (
     <Contacto>
       <b>Cotizaciones</b>
-      <a
-        href="https://forms.gle/WUSFDgH5poEJgkZV8"
-        target="_blank"
-        rel="noreferrer"
-      >
-        Cotización de Sitio web{" "}
-      </a>
-      {/** ------------------------------------------- */}
-      <a
-        href="https://forms.gle/UfBkXRvRb2Rj8mp4A"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      <Link href="https://forms.gle/WUSFDgH5poEJgkZV8">
+        Cotización de Sitio web
+      </Link>
+      <Link href="https://forms.gle/UfBkXRvRb2Rj8mp4A">
         Cotización de Campañas
-      </a>
+      </Link>
     </Contacto>
   );
 };

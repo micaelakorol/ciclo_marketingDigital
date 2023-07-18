@@ -1,12 +1,13 @@
 import React from "react";
-import { Ancla, BtnPlanes, Subtitulo } from "../styled-components/Planes";
+import { Subtitulo } from "../styled-components/Planes";
 import {
   DescripcionRedes,
   ItemArticulo,
 } from "../styled-components/GestionRedes";
 import planDesarrollo from "./Data/PlanDesarrollo";
 import { ContenedorPlanDesarrollo } from "../styled-components/DesarrolloWeb";
-import { check } from "../GestionRedes/Data/variables";
+import Check from "../../reusable/Check";
+import BtnAccion from "../../reusable/BtnAccion";
 const PlanDesarrollo = () => {
   const descripcionPlan = planDesarrollo.items;
   return (
@@ -16,19 +17,12 @@ const PlanDesarrollo = () => {
         <DescripcionRedes as="ul">
           {descripcionPlan.map((item) => (
             <ItemArticulo key={item.id}>
-              {" "}
-              <img src={check} alt="check" /> {item.descripcion}
+              <Check /> {item.descripcion}
             </ItemArticulo>
           ))}
-          <BtnPlanes className="btn btnObjetivos">
-            <Ancla
-              href="https://forms.gle/76FDBUW7RbBaxv9N7"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Solicitar cotización
-            </Ancla>
-          </BtnPlanes>
+          <BtnAccion href="https://forms.gle/76FDBUW7RbBaxv9N7">
+            Solicitar cotización
+          </BtnAccion>
         </DescripcionRedes>
       </ContenedorPlanDesarrollo>
     </>
