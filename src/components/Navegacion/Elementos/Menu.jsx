@@ -1,6 +1,6 @@
 import React from 'react'
 import { IconosMoviles } from '../../../styled-components/NavegacionMob'
-import { menu } from "../Variables/var";
+import { menu } from "../../../variables/var"
 const Menu = ({setMenuMobile}) => {
   return (
     <IconosMoviles>

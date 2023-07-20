@@ -1,5 +1,5 @@
 import React from 'react'
-import {logo} from '../Variables/var'
+import {logo} from "../../../variables/var"
 const Logo = () => {
   return (
     <>

@@ -1,5 +1,5 @@
 import React from "react";
-import { cerrar } from "../Variables/var";
+import { cerrar } from "../../../variables/var";
 const Cerrar = ({setMenuMobile}) => {
   return (
     <>

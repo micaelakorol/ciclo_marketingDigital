@@ -7,7 +7,7 @@ import {
 import Social from "./Social";
 import ContactoFooter from "./ContactoFooter";
 import RecursosFooter from "./RecursosFooter";
-import {logoF} from './Variables/var'
+import { logoF } from "../../variables/var";
 
 const Footer = () => {
   return (

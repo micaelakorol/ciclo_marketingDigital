@@ -1,5 +1,5 @@
 import React from "react";
-import { email, instagram, wsp } from "./Variables/var";
+import { email, instagram, wsp } from "../../variables/var";
 import { SocialRedes } from "../../styled-components/Footer";
 import Link from "../../reusable/Link";
 

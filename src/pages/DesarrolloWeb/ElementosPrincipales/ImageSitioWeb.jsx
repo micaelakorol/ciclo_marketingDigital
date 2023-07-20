@@ -1,6 +1,6 @@
 import React from 'react'
-import { ilusWeb } from "../../GestionRedes/Variables/variables";
 import { ImgMarketing } from '../../../styled-components/Contenido';
+import { ilusWeb } from '../../../variables/var';
 
 const ImageSitioWeb = () => {
   return (

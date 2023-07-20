@@ -7,10 +7,10 @@ import {
   ItemArticulo,
 } from "../../styled-components/GestionRedes";
 import { ImgMarketing } from "../../../styled-components/Contenido";
-import { ilusMkt } from "../Variables/variables";
 import { dataGestion } from "./objetivos";
 import BtnAccion from "../../../reusable/BtnAccion";
 import Check from "../../../reusable/Check";
+import { ilusMkt } from "../../../variables/var";
 
 const ObjetivosRedes = () => {
   let queHare = dataGestion.items;

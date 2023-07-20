@@ -6,9 +6,9 @@ import {
   ContenedorBg,
   ComoLoHago,
 } from "../../styled-components/Presentacion";
+import { imgPresentacion } from "../../variables/var";
 const Presentacion = () => {
-  const presentacion =
-    "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1689607309/principal_gyle4m.svg";
+
   return (
     <ContenedorPresentacion>
       <InformacionPrincipal>
@@ -22,7 +22,7 @@ const Presentacion = () => {
       </InformacionPrincipal>
       <ContenedorBg>
         <img
-          src={presentacion}
+          src={imgPresentacion}
           className="social-media"
           alt="social-media-servicios"
         />
