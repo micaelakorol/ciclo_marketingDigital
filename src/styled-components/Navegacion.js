@@ -26,13 +26,11 @@ const Elementos = styled.nav`
 
 const Links = styled(NavLink)`
   color: ${colores.links};
-  font-family: "Karla", sans-serif;
-  font-size: 0.99rem;
+  font-size: 0.9rem;
   font-weight: 400;
   padding: 0.5rem;
   text-transform: uppercase;
   &:hover {
-    color: ${colores.verdeHLinks};
     text-decoration: underline;
   }
   @media (max-width: 1024px) {

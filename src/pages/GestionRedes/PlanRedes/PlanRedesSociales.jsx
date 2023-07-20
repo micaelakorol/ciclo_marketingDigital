@@ -13,7 +13,7 @@ const PlanRedesSociales = () => {
   let descripcionPlan = planRedes.items;
   return (
     <>
-      <Subtitulo>¿Qué incluye el plan de redes sociales?</Subtitulo>
+      <Subtitulo>Conocé lo que nuestro plan de redes sociales tiene para ofrecerte</Subtitulo>
       <ContenedorPlanRedes>
         <DescripcionRedes as="ul">
           {descripcionPlan.map((item) => (

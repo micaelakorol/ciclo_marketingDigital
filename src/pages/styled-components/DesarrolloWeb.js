@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { DescripcionTarjeta } from "../../styled-components/Servicios";
 import { colores } from "../../styled-components/Colores";
-import { ArticuloRedes, ContenedorPlanRedes, DescripcionRedes } from "./GestionRedes";
+import { ArticuloRedes, DescripcionRedes } from "./GestionRedes";
 import { Flex } from "../../styled-components/Flex";
 
 const ContenedorDesarrollo = styled(Flex)`
@@ -10,7 +10,6 @@ const ContenedorDesarrollo = styled(Flex)`
     width: 45%;
   }
 `
-
 const ContenidoDesarrollo = styled(DescripcionTarjeta)`
   text-align: center;
   font-size: 1.1rem;
@@ -25,13 +24,6 @@ const TituloTarjeta = styled.h5`
   margin-bottom: 1rem;
 `;
 
-const ContenedorPlanDesarrollo = styled(ContenedorPlanRedes)`
-padding: 2rem;
-  @media (max-width: 768px) {
-    width: 80vw;
-    padding: .6rem;
-  }
-`;
 
 const ParrafoDW = styled.p`
   text-align: center;
@@ -46,6 +38,6 @@ font-weight: 500;
 export {
   ContenidoDesarrollo,
   ArticuloDesarrollo,ParrafoDW,
-  TituloTarjeta,DetallesPagina,
-  ContenedorPlanDesarrollo,ContenedorDesarrollo
+  TituloTarjeta,DetallesPagina
+,ContenedorDesarrollo
 };

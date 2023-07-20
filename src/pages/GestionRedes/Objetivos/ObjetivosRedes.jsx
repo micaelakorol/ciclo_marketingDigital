@@ -17,11 +17,11 @@ const ObjetivosRedes = () => {
   return (
     <>
       <Subtitulo>
-        Te ayudamos a potenciar y administrar tus redes sociales
+      Alcanzá todo tu potencial en el mundo digital
       </Subtitulo>
-      <TituloPrincipal as="h4">¿Cómo lo vamos a hacer?</TituloPrincipal>
       <ArticuloRedes as="article">
         <DescripcionRedes as="ul">
+        <TituloPrincipal as="h4">¿Cómo lo vamos a hacer?</TituloPrincipal>
           {queHare.map((item) => (
             <ItemArticulo key={item.id}>
             <Check /> {item.items}

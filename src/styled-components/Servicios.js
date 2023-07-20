@@ -7,7 +7,7 @@ const TituloPrincipal = styled.h2`
   text-align: center;
   text-transform: uppercase;
   font-size: 1.5rem;
-  margin: 4rem 0 2rem 0;
+  margin: 2rem 0 2rem 0;
 `;
 
 const ContenedorServicios = styled(Contenedor)``;
@@ -21,6 +21,7 @@ const ContenedorTarjetas = styled.section`
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
   &:hover {
     background: ${temas.bgPresentacion};
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   }
   @media (max-width: 1200px) {
     width: 45%;
@@ -31,7 +32,7 @@ const ContenedorTarjetas = styled.section`
 `;
 
 const TituloTarjeta = styled.h3`
-  color: ${colores.verdeHLinks};
+  color: ${colores.oscuroSuave};
   text-align: center;
   margin: 1rem 0;
   @media (max-width: 768px) {
@@ -42,12 +43,10 @@ const TituloTarjeta = styled.h3`
 `;
 
 const DescripcionTarjeta = styled.p`
-  text-align: start;
+  text-align: center;
   color: ${colores.pServicios};
-  font-family: "Karla", sans-serif;
-  font-size: 0.9rem;
+  font-size: 0.88rem;
   @media (max-width: 768px) {
-    text-align: center;
     margin: 0;
     font-size: 0.7rem;
   }

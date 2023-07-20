@@ -22,10 +22,9 @@ const InformacionPrincipal = styled.section`
   }
 `;
 const Titulo = styled.h1`
-  font-size: 1.9rem;
+  font-size: 1.7rem;
   margin-top: 2rem;
   padding: 0.4rem;
-  font-family: 'Open Sans', sans-serif;
   color: ${colores.oscuro};
   text-align: start;
   @media (max-width: 768px) {
@@ -36,10 +35,8 @@ const Titulo = styled.h1`
 
 const ComoLoHago = styled.p`
   font-weight: 700;
-  font-size: 1.5rem;
   color: ${colores.oscuro};
-  font-family: "Karla", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.333rem;
   padding: 0.2rem;
   text-align: start;
   font-weight: normal;

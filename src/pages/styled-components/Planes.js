@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import { colores, temas } from "../../styled-components/Colores";
 
-
 const Subtitulo = styled.h3`
   text-align: center;
   margin-top: 1rem;
@@ -9,7 +8,14 @@ const Subtitulo = styled.h3`
   font-size: 1.2rem;
   color: ${colores.oscuro};
   background: ${temas.bgMarronSuave};
-  filter: saturate(1.3);
+  font-family: 'Roboto Condensed', sans-serif;
+  filter: saturate(1.2);
+  font-weight: 600;
+`;
+
+const TituloDesarrollo = styled(Subtitulo)`
+  background: transparent;
+  margin: 0;
 `;
 
 const TituloPlan = styled.h3`
@@ -40,15 +46,17 @@ const BtnPlanes = styled.button`
 `;
 
 const Ancla = styled.a`
-   text-transform: uppercase;
-    font-weight: 500;
-    color: ${colores.blanco};
-    filter: contrast(3);
-`
+  text-transform: uppercase;
+  font-weight: 500;
+  color: ${colores.blanco};
+  filter: contrast(3);
+`;
 
 export {
   BtnPlanes,
   Subtitulo,
   TituloPlan,
-  DescripcionPlan,Ancla
+  DescripcionPlan,
+  Ancla,
+  TituloDesarrollo,
 };

@@ -1,30 +1,21 @@
 import React from "react";
-import { Subtitulo } from "../styled-components/Planes";
-import {
-  DescripcionRedes,
-  ItemArticulo,
-} from "../styled-components/GestionRedes";
-import planDesarrollo from "./Data/PlanDesarrollo";
-import { ContenedorPlanDesarrollo } from "../styled-components/DesarrolloWeb";
-import Check from "../../reusable/Check";
+import { TituloDesarrollo } from "../styled-components/Planes";
+import { DescripcionRedes } from "../styled-components/GestionRedes";
+import { ArticuloDesarrollo } from "../styled-components/DesarrolloWeb";
 import BtnAccion from "../../reusable/BtnAccion";
 const PlanDesarrollo = () => {
-  const descripcionPlan = planDesarrollo.items;
   return (
     <>
-      <Subtitulo>Todos nuestros planes incluyen:</Subtitulo>
-      <ContenedorPlanDesarrollo>
+      <ArticuloDesarrollo>
+        <TituloDesarrollo>
+          ¡Traé tu idea y te recomendamos lo mejor para vos!
+        </TituloDesarrollo>
         <DescripcionRedes as="ul">
-          {descripcionPlan.map((item) => (
-            <ItemArticulo key={item.id}>
-              <Check /> {item.descripcion}
-            </ItemArticulo>
-          ))}
           <BtnAccion href="https://forms.gle/76FDBUW7RbBaxv9N7">
-            Solicitar cotización
+            ¡Quiero contactarme!
           </BtnAccion>
         </DescripcionRedes>
-      </ContenedorPlanDesarrollo>
+      </ArticuloDesarrollo>
     </>
   );
 };
