@@ -27,7 +27,6 @@ const FooterPagina = styled.footer`
     margin-top: 1rem;
   }
 `;
-//--------------------//
 const Contacto = styled.div`
   display: flex;
   flex-direction: column;
@@ -40,14 +39,12 @@ const Contacto = styled.div`
     color: ${colores.verdeHLinks};
   }
 `;
-//--------------------//
 const Recursos = styled(Contacto)``;
-//--------------------//
+
 const Redes = styled(Contacto)`
   display: flex;
   flex-direction: column;
 `;
-//--------------------//
 const SocialRedes = styled.div`
 margin-top: .5rem;
   img {
@@ -55,6 +52,6 @@ margin-top: .5rem;
     cursor: pointer;
   }
 `;
-const LogoFooter = styled.section``;
 
-export { FooterPagina, Contacto, Recursos, Redes, SocialRedes, LogoFooter };
+
+export { FooterPagina, Contacto, Recursos, Redes, SocialRedes };

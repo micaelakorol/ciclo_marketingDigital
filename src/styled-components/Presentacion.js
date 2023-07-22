@@ -16,9 +16,12 @@ const ContenedorPresentacion = styled.main`
 `;
 
 const InformacionPrincipal = styled.section`
-  margin: 2.4rem 0 0 1rem;
+  margin-top: 10%;
   @media (max-width: 1024px) {
     margin: 1rem 0 0 1rem;
+  }
+  @media (min-width: 1300px) {
+    margin-top: 20%;
   }
 `;
 const Titulo = styled.h1`
@@ -28,12 +31,12 @@ const Titulo = styled.h1`
   color: ${colores.oscuro};
   text-align: start;
   @media (max-width: 768px) {
-    margin:0;
+    margin: 0;
     font-size: 1.2rem;
   }
 `;
 
-const ComoLoHago = styled.p`
+const ComoLoHago = styled.h2`
   font-weight: 700;
   color: ${colores.oscuro};
   font-size: 1.333rem;
@@ -53,19 +56,20 @@ const ContenedorBg = styled.aside`
   justify-content: center;
   align-items: center;
   padding: 0.5rem;
-.social-media{
-  margin-top: -1.6rem;
-}
-@media(max-width: 768px){
-  .social-media{
-    height: auto;
+  .social-media {
+    margin-top: -1.6rem;
+    width: 80%;
   }
-}
-@media(max-width: 300px){
-  .social-media{
-    display: none;
+  @media (max-width: 768px) {
+    .social-media {
+      height: auto;
+    }
   }
-}
+  @media (max-width: 300px) {
+    .social-media {
+      display: none;
+    }
+  }
 `;
 
 export {

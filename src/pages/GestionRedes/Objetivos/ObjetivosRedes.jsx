@@ -1,10 +1,10 @@
 import React from "react";
 import {Subtitulo } from "../../styled-components/Planes";
-import { TituloPrincipal } from "../../../styled-components/Servicios";
 import {
   ArticuloRedes,
   DescripcionRedes,
   ItemArticulo,
+  SubtituloRedes,
 } from "../../styled-components/GestionRedes";
 import { ImgMarketing } from "../../../styled-components/Contenido";
 import { dataGestion } from "./objetivos";
@@ -21,7 +21,7 @@ const ObjetivosRedes = () => {
       </Subtitulo>
       <ArticuloRedes as="article">
         <DescripcionRedes as="ul">
-        <TituloPrincipal as="h4">¿Cómo lo vamos a hacer?</TituloPrincipal>
+        <SubtituloRedes as="h4">¿Cómo lo vamos a hacer?</SubtituloRedes>
           {queHare.map((item) => (
             <ItemArticulo key={item.id}>
             <Check /> {item.items}

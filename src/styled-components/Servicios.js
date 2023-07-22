@@ -1,16 +1,14 @@
 import styled /* , { keyframes } */ from "styled-components";
 import { colores, temas } from "./Colores";
-import { Contenedor } from "./Flex";
+import { Titulo } from "./Presentacion";
 
-const TituloPrincipal = styled.h2`
+const TituloPrincipal = styled(Titulo)`
   color: ${colores.oscuro};
   text-align: center;
-  text-transform: uppercase;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   margin: 2rem 0 2rem 0;
 `;
 
-const ContenedorServicios = styled(Contenedor)``;
 const ContenedorTarjetas = styled.section`
   padding: 1rem;
   margin: 0.6rem;
@@ -60,7 +58,6 @@ const ImgTarjeta = styled.section`
 
 export {
   TituloPrincipal,
-  ContenedorServicios,
   ContenedorTarjetas,
   TituloTarjeta,
   DescripcionTarjeta,

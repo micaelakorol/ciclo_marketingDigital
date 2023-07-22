@@ -4,6 +4,7 @@ import { Flex } from "../../styled-components/Flex";
 import {
   ContenedorTarjetas,
   DescripcionTarjeta,
+  TituloPrincipal,
 } from "../../styled-components/Servicios";
 import { Articulo } from "../../styled-components/Contenido";
 
@@ -47,7 +48,7 @@ const DescripcionRedes = styled(DescripcionTarjeta)`
 
 const ArticuloRedes = styled(Articulo)`
   .ilustracion-mkt {
-    margin-top: 3rem;
+    margin-top: 1.5rem;
     width: 40%;
   }
   @media (max-width: 768px) {
@@ -84,11 +85,15 @@ const ContenedorPlanRedes = styled.section`
   }
 `;
 
+const SubtituloRedes = styled(TituloPrincipal)`
+margin: 0;
+`
+
 export {
   ContenedorRedes,
   DescripcionRedes,
   ContenedorTarjetaRD,
   ArticuloRedes,
   ItemArticulo,
-  ContenedorPlanRedes,
+  ContenedorPlanRedes,SubtituloRedes
 };

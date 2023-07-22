@@ -2,7 +2,7 @@ import React from "react";
 import {
   FooterPagina,
   Redes,
-  LogoFooter,
+  Recursos,
 } from "../../styled-components/Footer";
 import Social from "./Social";
 import ContactoFooter from "./ContactoFooter";
@@ -13,9 +13,9 @@ const Footer = () => {
   return (
     <>
       <FooterPagina as="footer">
-        <LogoFooter>
+        <Recursos>
           <img src={logoF} alt="logo-ciclo" className="logomkt" />
-        </LogoFooter>
+        </Recursos>
         <ContactoFooter />
         <RecursosFooter />
         <Redes>

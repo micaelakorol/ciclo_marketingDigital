@@ -13,7 +13,7 @@ const Presentacion = () => {
     <ContenedorPresentacion>
       <InformacionPrincipal>
         <Titulo>
-          Te ayudamos a incrementar tus ventas a través de estrategias
+          Te ayudamos a <mark>incrementar tus ventas</mark>  a través de estrategias
           personalizadas según tus objetivos.🚀
         </Titulo>
         <ComoLoHago>

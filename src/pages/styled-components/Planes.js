@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { colores, temas } from "../../styled-components/Colores";
+import { colores } from "../../styled-components/Colores";
 
 const Subtitulo = styled.h3`
   text-align: center;
@@ -7,8 +7,7 @@ const Subtitulo = styled.h3`
   padding: 0.5rem;
   font-size: 1.2rem;
   color: ${colores.oscuro};
-  background: ${temas.bgMarronSuave};
-  font-family: 'Roboto Condensed', sans-serif;
+  background: ${colores.grayLight};
   filter: saturate(1.2);
   font-weight: 600;
 `;
@@ -43,6 +42,9 @@ const BtnPlanes = styled.button`
     position: relative;
     top: 0.2rem;
   }
+  &:hover {
+    background-color: #ffd600;
+  }
 `;
 
 const Ancla = styled.a`
@@ -50,6 +52,9 @@ const Ancla = styled.a`
   font-weight: 500;
   color: ${colores.blanco};
   filter: contrast(3);
+  &:hover {
+    color: ${colores.oscuro};
+  }
 `;
 
 export {

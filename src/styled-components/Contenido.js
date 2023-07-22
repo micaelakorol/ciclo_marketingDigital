@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import { colores, temas } from "./Colores";
+import { colores } from "./Colores";
 
 const ContenidoPrincipal = styled.article`
-  background: ${temas.bgMarronSuave};
+  background: ${colores.grayLight};
   min-height: 390px;
   max-height: 100vh;
   margin-top: 1rem;
@@ -35,10 +35,11 @@ const Articulo = styled.section`
 `;
 const PMarketing = styled.section`
   color: ${colores.oscuroSuave}; 
-  margin: 2rem;  
+  margin: 1.2rem;  
   display: flex;
   flex-direction: column;
   h4,i{
+    font-size: 1rem;
     font-weight: 400;
   }
 `;
@@ -48,7 +49,7 @@ const ImgMarketing = styled.section`
   margin-top: -2.3rem;
 `;
 const Btn = styled(Link)`
-  background: #ffe77f;
+  background: ${colores.yellowBtn};
   text-decoration: none;
   font-weight: 600;
   font-size: .9rem;

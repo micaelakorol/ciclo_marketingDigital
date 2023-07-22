@@ -27,7 +27,7 @@ const Elementos = styled.nav`
 const Links = styled(NavLink)`
   color: ${colores.links};
   font-size: 0.9rem;
-  font-weight: 400;
+  font-weight: 500;
   padding: 0.5rem;
   text-transform: uppercase;
   &:hover {

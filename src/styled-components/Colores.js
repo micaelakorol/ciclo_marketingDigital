@@ -6,6 +6,8 @@ export const colores = {
   blanco: '#FFFFFF',
   background: "#F1F1F1",
   precio: "#3A332D",
+  grayLight:"#F1F1F1",
+  yellowBtn:"#ffe77f"
 };
 
 export const temas = {

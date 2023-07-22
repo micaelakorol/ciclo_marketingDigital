@@ -1,16 +1,16 @@
 import React from "react";
 import {
-  ContenedorServicios,
   ContenedorTarjetas,
   TituloTarjeta,
   DescripcionTarjeta,
   ImgTarjeta,
 } from "../../styled-components/Servicios";
 import data from "./data/data";
+import { Contenedor } from "../../styled-components/Flex";
 const Tarjeta = () => {
   let tarjeta = data.items;
   return (
-    <ContenedorServicios>
+    <Contenedor>
       {tarjeta.map((item) => (
         <ContenedorTarjetas key={item.id}>
           <ImgTarjeta>
@@ -29,7 +29,7 @@ const Tarjeta = () => {
           )}
         </ContenedorTarjetas>
       ))}
-    </ContenedorServicios>
+    </Contenedor>
   );
 };
 
