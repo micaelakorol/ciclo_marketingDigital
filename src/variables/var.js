@@ -14,26 +14,24 @@ const logo =
   "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1689711704/logo/logoN_zaouiq.svg";
 const imgPresentacion =
   "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1689607309/principal_gyle4m.svg";
-const seccionMkt =
-  "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1689607309/seccionmkt_psguxx.svg";
 const check =
   "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1689607305/check2_gssdiq.svg";
 const ilusWeb =
-  "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1689607309/web_uxhh5y.svg";
+  "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1690308617/seccionweb_nknihm.svg";
 const ilusMkt =
-  "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1689607309/seccionmkt_psguxx.svg";
+  "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1690308433/seccionredes_wjbg6c.svg";
+  const ilusContenido = "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1690309342/seccioncontenido_hof6yn.svg"
 
 export {
   logoF,
   wsp,
   email,
-  instagram,
+  instagram,ilusContenido,
   menu,
   cerrar,
   logo,
   imgPresentacion,
   check,
-  seccionMkt,
   ilusMkt,
   ilusWeb,
 };

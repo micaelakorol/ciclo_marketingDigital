@@ -16,9 +16,11 @@ const ContenedorPresentacion = styled.main`
 `;
 
 const InformacionPrincipal = styled.section`
-  margin-top: 10%;
+  margin: 10% auto auto auto;
+  width: 85%;
   @media (max-width: 1024px) {
     margin: 1rem 0 0 1rem;
+    width: 100%;
   }
   @media (min-width: 1300px) {
     margin-top: 20%;

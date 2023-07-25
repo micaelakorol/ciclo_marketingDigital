@@ -20,7 +20,7 @@ const ContenedorRedes = styled(Flex)`
 `;
 
 const ContenedorTarjetaRD = styled(ContenedorTarjetas)`
-  width: 22%;
+  width: 21%;
   text-align: center;
   @media (max-width: 480px) {
     width: 70vw;
@@ -48,8 +48,7 @@ const DescripcionRedes = styled(DescripcionTarjeta)`
 
 const ArticuloRedes = styled(Articulo)`
   .ilustracion-mkt {
-    margin-top: 1.5rem;
-    width: 40%;
+    margin: 1.5rem auto 0 auto;
   }
   @media (max-width: 768px) {
     .ilustracion-mkt {

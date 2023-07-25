@@ -7,8 +7,8 @@ import {
   ImgMarketing,
   Btn,
 } from "../../styled-components/Contenido";
+import { ilusContenido } from "../../variables/var";
 const Contenido = () => {
-  let img = 'https://res.cloudinary.com/dgqyqd2pa/image/upload/v1689607305/contenido_kpcbsm.svg'
   return (
     <>
       <ContenidoPrincipal>
@@ -24,7 +24,7 @@ const Contenido = () => {
             <Btn to={"/redes-anuncios"}>Elige un plan para tu negocio</Btn>
           </PMarketing>
           <ImgMarketing>
-          <img src={img} className="contenido" alt="Ilustracion marketing"/>
+          <img src={ilusContenido} className="contenido" alt="Ilustracion marketing"/>
           </ImgMarketing>
         </Articulo>
       </ContenidoPrincipal>
