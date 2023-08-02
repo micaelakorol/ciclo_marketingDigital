@@ -7,10 +7,9 @@ import App from "../App";
 import Render from "../components/Render";
 import DesarrolloWeb from "../pages/DesarrolloWeb/DesarrolloWeb";
 import Politicas from "../pages/Politicas/Politicas";
-import Cookies from "../pages/Politicas/Cookies";
-import TyC from "../pages/Politicas/TyC";
 import Error from "../pages/Error/Error";
 import GestionRedes from "../pages/GestionRedes/Gestion/GestionRedes";
+import Nosotros from "../pages/SobreNosotros/Nosotros";
   
  export const router = createBrowserRouter(
     createRoutesFromElements(
@@ -19,8 +18,7 @@ import GestionRedes from "../pages/GestionRedes/Gestion/GestionRedes";
         <Route path="/desarrollo" element={<DesarrolloWeb />} />
         <Route path="/redes-anuncios" element={<GestionRedes />} />
         <Route path='/politicas-de-privacidad' element={<Politicas />} />
-        <Route path='/politicas-de-cookies' element={<Cookies />} />
-        <Route path='/terminos-y-condiciones' element={<TyC />} />
+        <Route path='/sobre-nosotros' element={<Nosotros />} />
         <Route path='*' element={<Error />} />
       </Route>
     )

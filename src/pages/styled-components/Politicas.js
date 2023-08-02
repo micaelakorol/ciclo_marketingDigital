@@ -1,6 +1,4 @@
 import styled from "styled-components";
-import { Ancla } from "./Planes";
-import { colores } from "../../styled-components/Colores";
 import { TituloPrincipal } from "../../styled-components/Servicios";
 
 const ContenedorPolitica = styled.div`
@@ -31,14 +29,9 @@ color: #595858;
 font-size: 1rem;
 `
 
-const PoliticaCompleta = styled(Ancla)`
-color: ${colores.oscuro};
-text-decoration: underline;
-font-size: .7rem;
-`
 
 const TituloPrincipalPoliticas = styled(TituloPrincipal)`
 margin: 0;
 `
 
-export {TituloPolitica, ParrafoPolitica,ContenedorPolitica,TituloItems,PoliticaCompleta,TituloPrincipalPoliticas}
+export {TituloPolitica, ParrafoPolitica,ContenedorPolitica,TituloItems,TituloPrincipalPoliticas}

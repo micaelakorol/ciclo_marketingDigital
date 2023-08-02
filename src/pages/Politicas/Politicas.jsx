@@ -3,10 +3,8 @@ import {
   ParrafoPolitica,
   ContenedorPolitica,
   TituloItems,
-  PoliticaCompleta,
   TituloPrincipalPoliticas,
 } from "../styled-components/Politicas";
-import { Link } from "react-router-dom";
 
 const Politicas = () => {
   return (
@@ -78,16 +76,6 @@ const Politicas = () => {
         <ParrafoPolitica>
           Email: micaelakorol@gmail.com <br />
           Teléfono: +541124000822
-        </ParrafoPolitica>
-        <PoliticaCompleta
-          href={require("../../components/Footer/PDF/politicaPrivacidad.pdf")}
-          target="_blank" className='tyc'
-        >
-          Ver Politica de Privacidad Completa
-        </PoliticaCompleta>
-        <ParrafoPolitica>
-          {" "}
-          <Link to="/terminos-y-condiciones" className='tyc'>Ver Terminos y Condiciones</Link>
         </ParrafoPolitica>
       </ContenedorPolitica>
     </>

@@ -30,12 +30,13 @@ const DescripcionPlan = styled.ul`
   color: ${colores.oscuroSuave};
 `;
 
-const BtnPlanes = styled.button`
+const BtnPlanes = styled.div`
   background: ${colores.oscuro};
   border: 1.7px solid ${colores.blanco};
   width: 90%;
   padding: 0.4rem;
   border-radius: 0.4rem;
+  margin: auto;
   cursor: pointer;
   filter: saturate(1.1);
   .wsp {

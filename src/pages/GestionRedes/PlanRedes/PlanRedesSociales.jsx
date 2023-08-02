@@ -17,11 +17,11 @@ const PlanRedesSociales = () => {
       <ContenedorPlanRedes>
         <DescripcionRedes as="ul">
           {descripcionPlan.map((item) => (
-            <ItemArticulo>
+            <ItemArticulo key={item.id}>
               <Check /> {item.descripcion}
             </ItemArticulo>
           ))}
-          <BtnAccion href="https://forms.gle/UfBkXRvRb2Rj8mp4A">¡Comencemos!</BtnAccion>
+          <BtnAccion href="https://shrtco.de/Hmr1c">¡Comencemos!</BtnAccion>
         </DescripcionRedes>
       </ContenedorPlanRedes>
     </>

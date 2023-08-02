@@ -27,8 +27,8 @@ const ObjetivosRedes = () => {
             <Check /> {item.items}
             </ItemArticulo>
           ))}
-          <BtnAccion href="https://forms.gle/UfBkXRvRb2Rj8mp4A">
-            Me interesa
+          <BtnAccion href="https://shrtco.de/Hmr1c">
+            Agendar llamada
           </BtnAccion>
         </DescripcionRedes>
         <ImgMarketing>

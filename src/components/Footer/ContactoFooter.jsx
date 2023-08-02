@@ -5,12 +5,11 @@ import Link from "../../reusable/Link";
 const ContactoFooter = () => {
   return (
     <Contacto>
-      <b>Cotizaciones</b>
+      {" "}
+      <b>Enlaces útiles</b>
+      <Link href="https://shrtco.de/Hmr1c">Agendá tu llamada</Link>
       <Link href="https://forms.gle/WUSFDgH5poEJgkZV8">
-        Cotización de Sitio web
-      </Link>
-      <Link href="https://forms.gle/UfBkXRvRb2Rj8mp4A">
-        Cotización de Campañas
+        Cotización Sitio Web
       </Link>
     </Contacto>
   );
