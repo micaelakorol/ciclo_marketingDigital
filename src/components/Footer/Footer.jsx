@@ -21,7 +21,6 @@ const Footer = () => {
         <Redes>
           <Social />
         </Redes>
-      {/**<p className="copy">© 2023 Todos los derechos reservados</p> */}  
       </FooterPagina>
     </>
   );

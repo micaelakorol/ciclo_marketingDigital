@@ -7,8 +7,10 @@ const Social = () => {
   return (
     <>
       <SocialRedes>
-        <img src={wsp} alt="whatsApp" />
-        <Link href="https://wa.link/rpa4fh" />
+        <Link href="https://wa.link/2zr6kj">
+          {" "}
+          <img src={wsp} alt="whatsApp" />{" "}
+        </Link>
         <Link href="https://www.instagram.com/ciclo.marketingdigital/">
           <img src={instagram} alt="instagram" />
         </Link>

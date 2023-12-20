@@ -10,10 +10,10 @@ const FooterPagina = styled.footer`
   padding: .5rem;
   b {
     color: black;
-    font-size: 0.9rem;
+    font-size: .87rem;
   }
   .copy {
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
@@ -32,7 +32,7 @@ const Contacto = styled.div`
   flex-direction: column;
   a {
     color: ${colores.oscuro};
-    font-size: 0.8rem;
+    font-size: .85rem;
   }
   a:hover {
     text-decoration: underline;
