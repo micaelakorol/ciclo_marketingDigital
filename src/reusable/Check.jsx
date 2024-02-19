@@ -1,5 +1,5 @@
 import React from "react";
-import { check } from "../variables/var";
+import { check } from "../assets/var";
 
 const Check = () => {
   return <img src={check} alt="check" />;

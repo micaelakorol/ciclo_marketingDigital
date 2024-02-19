@@ -1,10 +1,11 @@
 import React from 'react'
 import { IconosMoviles } from '../../../styled-components/NavegacionMob'
-import { menu } from "../../../variables/var"
+import { menu } from "../../../assets/var"
+import Image from '../../../reusable/Image'
 const Menu = ({setMenuMobile}) => {
   return (
     <IconosMoviles>
-        <img
+        <Image
           src={menu}
           alt="Icono menu"
           onClick={() => setMenuMobile(true)}

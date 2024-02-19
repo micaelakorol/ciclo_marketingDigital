@@ -7,7 +7,7 @@ import {
   ImgMarketing,
   Btn,
 } from "../../styled-components/Contenido";
-import { ilusContenido } from "../../variables/var";
+import { ilusContenido } from "../../assets/var";
 const Contenido = () => {
   return (
     <>

@@ -1,5 +1,5 @@
 import React from "react";
-import dataDesarrollo from "../Data/DataDesarrollo";
+import dataDesarrollo from "../data/DataDesarrollo";
 import ParrafoPrincipal from "./ParrafoPrincipal";
 import ImageSitioWeb from "./ImageSitioWeb";
 import Check from "../../../reusable/Check";

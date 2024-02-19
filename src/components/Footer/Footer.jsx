@@ -1,13 +1,9 @@
 import React from "react";
-import {
-  FooterPagina,
-  Redes,
-  Recursos,
-} from "../../styled-components/Footer";
-import Social from "./Social";
-import ContactoFooter from "./ContactoFooter";
-import RecursosFooter from "./RecursosFooter";
-import { logoF } from "../../variables/var";
+import { FooterPagina, Redes, Recursos } from "../../styled-components/Footer";
+import Social from "./Elementos/Social";
+import ContactoFooter from "./Elementos/ContactoFooter";
+import RecursosFooter from "./Elementos/RecursosFooter";
+import { logoF } from "../../assets/var";
 
 const Footer = () => {
   return (

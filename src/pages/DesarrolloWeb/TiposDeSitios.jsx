@@ -5,7 +5,7 @@ import {
   ContenedorDesarrollo,
   DetallesPagina,
 } from "../styled-components/DesarrolloWeb";
-import tiposSitios from "./Data/TiposSitios";
+import tiposSitios from "./data/TiposSitios";
 import { Subtitulo } from "../styled-components/Planes";
 
 const TiposDeSitios = () => {

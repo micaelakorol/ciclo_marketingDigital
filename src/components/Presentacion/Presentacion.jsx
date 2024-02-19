@@ -6,7 +6,8 @@ import {
   ContenedorBg,
   ComoLoHago,
 } from "../../styled-components/Presentacion";
-import { imgPresentacion } from "../../variables/var";
+import { imgPresentacion } from "../../assets/var";
+import Image from "../../reusable/Image";
 const Presentacion = () => {
 
   return (
@@ -21,7 +22,7 @@ const Presentacion = () => {
         </ComoLoHago>
       </InformacionPrincipal>
       <ContenedorBg>
-        <img
+        <Image
           src={imgPresentacion}
           className="social-media"
           alt="social-media-servicios"

@@ -1,7 +1,7 @@
 import React from "react";
-import { email, instagram, wsp } from "../../variables/var";
-import { SocialRedes } from "../../styled-components/Footer";
-import Link from "../../reusable/Link";
+import { email, instagram, wsp } from "../../../assets/var";
+import { SocialRedes } from "../../../styled-components/Footer";
+import Link from "../../../reusable/Link";
 
 const Social = () => {
   return (

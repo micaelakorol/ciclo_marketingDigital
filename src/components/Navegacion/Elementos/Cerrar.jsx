@@ -1,9 +1,10 @@
 import React from "react";
-import { cerrar } from "../../../variables/var";
+import { cerrar } from "../../../assets/var";
+import Image from "../../../reusable/Image";
 const Cerrar = ({setMenuMobile}) => {
   return (
     <>
-      <img
+      <Image
         src={cerrar}
         className="btnCerrar"
         alt="Icono cerrar"

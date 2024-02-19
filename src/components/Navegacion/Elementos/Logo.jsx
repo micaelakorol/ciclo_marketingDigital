@@ -1,9 +1,10 @@
 import React from 'react'
-import {logo} from "../../../variables/var"
+import {logo} from "../../../assets/var"
+import Image from '../../../reusable/Image'
 const Logo = () => {
   return (
     <>
-    <img src={logo} alt="Logo-marketing" />
+    <Image src={logo} alt="Logo-marketing" />
     </>
   )
 }

@@ -1,6 +1,6 @@
 import React from "react";
-import { Contacto } from "../../styled-components/Footer";
-import Link from "../../reusable/Link";
+import { Contacto } from "../../../styled-components/Footer";
+import Link from "../../../reusable/Link";
 
 const ContactoFooter = () => {
   return (

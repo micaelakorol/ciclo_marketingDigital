@@ -1,5 +1,5 @@
 import React from "react";
-import { Recursos } from "../../styled-components/Footer";
+import { Recursos } from "../../../styled-components/Footer";
 import { Link } from "react-router-dom";
 const RecursosFooter = () => {
   return (

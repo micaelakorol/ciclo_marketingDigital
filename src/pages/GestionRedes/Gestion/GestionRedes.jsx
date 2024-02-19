@@ -8,6 +8,7 @@ import {
 import ObjetivosRedes from "../Objetivos/ObjetivosRedes";
 import PlanRedesSociales from "../PlanRedes/PlanRedesSociales";
 import { data } from "./itemGestion";
+import Image from "../../../reusable/Image";
 
 const GestionRedes = () => {
   let gestionRedes = data.items;
@@ -19,7 +20,7 @@ const GestionRedes = () => {
       <ContenedorRedes>
         {gestionRedes.map((item) => (
           <ContenedorTarjetaRD key={item.id}>
-            <img src={item.img} alt="iconos" className="gestion-redes" />
+            <Image src={item.img} alt="iconos" className="gestion-redes" />
             <DescripcionRedes>{item.descripcion}</DescripcionRedes>
           </ContenedorTarjetaRD>
         ))}

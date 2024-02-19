@@ -5,16 +5,17 @@ import {
   DescripcionTarjeta,
   ImgTarjeta,
 } from "../../styled-components/Servicios";
-import data from "./data/data";
+import dataServicios from "../../utils/dataServicios";
 import { Contenedor } from "../../styled-components/Flex";
+import Image from "../../reusable/Image";
 const Tarjeta = () => {
-  let tarjeta = data.items;
+  let tarjeta = dataServicios.items;
   return (
     <Contenedor>
       {tarjeta.map((item) => (
         <ContenedorTarjetas key={item.id}>
           <ImgTarjeta>
-            <img
+            <Image
               src={item.img}
               alt="Servicios Imagen"
               className="logo-tarjeta"
