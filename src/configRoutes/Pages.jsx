@@ -26,11 +26,11 @@ export const router = createBrowserRouter([
       },
       {
         path: "/politicas-de-privacidad",
-        element: <Nosotros />,
+        element: <Politicas />,
       },
       {
         path: "/sobre-nosotros",
-        element: <Politicas />,
+        element: <Nosotros />,
       },
       {
         path: "*",
