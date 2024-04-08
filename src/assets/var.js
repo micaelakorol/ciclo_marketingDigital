@@ -1,5 +1,5 @@
 const logoF =
-  "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1689711704/logo/logoF_efamow.svg";
+  "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1712603166/ciclo/logoF_efamow_2_b4k5pm.svg";
 const wsp =
   "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1689610317/whatsapp_wqndh2.svg";
 const email =
@@ -13,20 +13,22 @@ const cerrar =
 const logo =
   "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1689711704/logo/logoN_zaouiq.svg";
 const imgPresentacion =
-  "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1689607309/principal_gyle4m.svg";
+  "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1712602375/ciclo/principal_gyle4m_1_mbmnrp.svg";
 const check =
   "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1689607305/check2_gssdiq.svg";
 const ilusWeb =
-  "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1690308617/seccionweb_nknihm.svg";
+  "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1712602456/ciclo/seccionweb_nknihm_xgulex.svg";
 const ilusMkt =
-  "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1690308433/seccionredes_wjbg6c.svg";
-  const ilusContenido = "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1690309342/seccioncontenido_hof6yn.svg"
+  "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1712602453/ciclo/seccionredes_wjbg6c_tyi2zs.svg";
+const ilusContenido =
+  "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1712602444/ciclo/seccioncontenido_hof6yn_p5lvlk.svg";
 
 export {
   logoF,
   wsp,
   email,
-  instagram,ilusContenido,
+  instagram,
+  ilusContenido,
   menu,
   cerrar,
   logo,
