@@ -19,7 +19,7 @@ const TiposDeSitios = () => {
       <ContenedorDesarrollo>
         {descripcionSitios.map((item) => (
           <ContenedorTarjetas key={item.id}>
-            <img src={item.img} alt="icono" className="desarrollo-web" />
+            {/**   <img src={item.img} alt="icono" className="desarrollo-web" />*/}
             <TituloTarjeta>{item.titulo}</TituloTarjeta>
             <DetallesPagina> {item.descripcion}</DetallesPagina>
           </ContenedorTarjetas>

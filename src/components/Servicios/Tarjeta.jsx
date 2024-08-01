@@ -3,24 +3,22 @@ import {
   ContenedorTarjetas,
   TituloTarjeta,
   DescripcionTarjeta,
-  ImgTarjeta,
 } from "../../styled-components/Servicios";
 import dataServicios from "../../utils/dataServicios";
 import { Contenedor } from "../../styled-components/Flex";
-import Image from "../../reusable/Image";
 const Tarjeta = () => {
   let tarjeta = dataServicios.items;
   return (
     <Contenedor>
       {tarjeta.map((item) => (
         <ContenedorTarjetas key={item.id}>
-          <ImgTarjeta>
+          {/**    <ImgTarjeta>
             <Image
               src={item.img}
               alt="Servicios Imagen"
               className="logo-tarjeta"
             />
-          </ImgTarjeta>
+          </ImgTarjeta>*/}
           <TituloTarjeta>{item.titulo}</TituloTarjeta>
           <DescripcionTarjeta>{item.descripcion}</DescripcionTarjeta>
           {item.descripcion2 && (
