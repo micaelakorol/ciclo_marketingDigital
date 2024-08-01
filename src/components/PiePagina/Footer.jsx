@@ -1,8 +1,8 @@
 import React from "react";
 import { FooterPagina, Redes, Recursos } from "../../styled-components/Footer";
-import Social from "./Elementos/Social";
-import ContactoFooter from "./Elementos/ContactoFooter";
-import RecursosFooter from "./Elementos/RecursosFooter";
+import Social from "./elementos/Social";
+import ContactoFooter from "./elementos/ContactoFooter";
+import RecursosFooter from "./elementos/RecursosFooter";
 import { logoF } from "../../assets/var";
 
 const Footer = () => {

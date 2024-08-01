@@ -3,8 +3,7 @@ import { Subtitulo } from "../styled-components/Planes";
 import { ArticuloDesarrollo } from "../styled-components/DesarrolloWeb";
 import TiposDeSitios from "./TiposDeSitios";
 import PlanDesarrollo from "./PlanDesarrollo";
-
-import List from "./ElementosPrincipales/List";
+import List from "./elementos/List";
 const PlanesDesarrolloWeb = () => {
   return (
     <>

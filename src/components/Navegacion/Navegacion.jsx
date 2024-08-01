@@ -4,8 +4,8 @@ import {
   ContenedorImg,
   Elementos,
 } from "../../styled-components/Navegacion";
-import NavLink from "./Elementos/NavLink";
-import Logo from "./Elementos/Logo";
+import NavLink from "./elementos/NavLink";
+import Logo from "./elementos/Logo";
 
 const Navigation = () => {
   return (
