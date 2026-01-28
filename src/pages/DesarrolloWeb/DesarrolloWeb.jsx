@@ -1,7 +1,7 @@
 import React from "react";
 import { Subtitulo } from "../styled-components/Planes";
 import { ArticuloDesarrollo } from "../styled-components/DesarrolloWeb";
-import TiposDeSitios from "./TiposDeSitios";
+import TiposDeSitios from "./Data/TiposSitios";
 import PlanDesarrollo from "./PlanDesarrollo";
 import List from "./elementos/List";
 const PlanesDesarrolloWeb = () => {

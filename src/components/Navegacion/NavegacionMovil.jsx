@@ -6,10 +6,10 @@ import {
   ContainerLink,
 } from "../../styled-components/NavegacionMob";
 import { Links } from "../../styled-components/Navegacion";
-import Menu from "./elementos/Menu";
-import Cerrar from "./elementos/Cerrar";
-import Logo from "./elementos/Logo";
-import NavLink from "./elementos/NavLink";
+import Menu from "./Elementos/Menu";
+import Cerrar from "./Elementos/Cerrar";
+import Logo from "./Elementos/Logo";
+import NavLink from "./Elementos/NavLink";
 const NavegacionMovil = () => {
   const [menuMobile, setMenuMobile] = useState(false);
   return (
